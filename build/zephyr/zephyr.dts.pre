@@ -2231,9 +2231,9 @@ arduino_spi: &spi1 {};
 
 / {
  aliases {
+  led0 = &blue_led_1;
 
 
-  led0 = &red_led_3;
  };
 };
 # 0 "<command-line>" 2

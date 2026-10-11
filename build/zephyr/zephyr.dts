@@ -31,7 +31,7 @@
 		die-temp0 = &die_temp; /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:76 */
 		volt-sensor0 = &vref;  /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:77 */
 		volt-sensor1 = &vbat;  /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:78 */
-		led0 = &red_led_3;     /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:7 */
+		led0 = &blue_led_1;    /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:5 */
 	};
 
 	/* node '/soc' defined in zephyr\dts\arm\armv7-m.dtsi:6 */
