@@ -2231,9 +2231,25 @@ arduino_spi: &spi1 {};
 
 / {
  aliases {
-  led0 = &blue_led_1;
+  led-red = &rgb_red;
+  led-green = &rgb_green;
+  led-blue = &rgb_blue;
+ };
 
+ leds {
+  compatible = "gpio-leds";
 
+  rgb_red: red {
+   gpios = <&gpioa 5 (1 << 0)>;
+  };
+
+  rgb_green: green {
+   gpios = <&gpioa 6 (1 << 0)>;
+  };
+
+  rgb_blue: blue {
+   gpios = <&gpioa 7 (1 << 0)>;
+  };
  };
 };
 # 0 "<command-line>" 2

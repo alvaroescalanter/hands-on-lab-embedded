@@ -1,22 +1,25 @@
-#include <zephyr/dt-bindings/pinctrl/stm32-pinctrl.h>
+#include <zephyr/dt-bindings/gpio/gpio.h>
 
 / {
 	aliases {
-		led_red = &rgb_red; 	// This is LED red of the LED RGB 
-		led_green = &rgb_green; 	// This is LED green of the LED RGB 
-		led_blue = &rgb_blue; 	// This is LED blue of the LED RGB 
-	};	
-};
-&gpioa {
-    rgb_red: rgb_red {
-        gpios = <&gpioa 5 GPIO_ACTIVE_LOW>;
-    };
+		led-red = &rgb_red;
+		led-green = &rgb_green;
+		led-blue = &rgb_blue;
+	};
 
-    rgb_green: rgb_green {
-        gpios = <&gpioa 6 GPIO_ACTIVE_LOW>;
-    };
+	leds {
+		compatible = "gpio-leds";
 
-    rgb_blue: rgb_blue {
-        gpios = <&gpioa 7 GPIO_ACTIVE_LOW>;
-    };
+		rgb_red: red {
+			gpios = <&gpioa 5 GPIO_ACTIVE_LOW>;
+		};
+
+		rgb_green: green {
+			gpios = <&gpioa 6 GPIO_ACTIVE_LOW>;
+		};
+
+		rgb_blue: blue {
+			gpios = <&gpioa 7 GPIO_ACTIVE_LOW>;
+		};
+	};
 };

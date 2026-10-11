@@ -22,16 +22,19 @@
 
 	/* node '/aliases' defined in zephyr\dts\common\skeleton.dtsi:15 */
 	aliases {
-		rtc = &rtc;            /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:70 */
-		sw0 = &user_button_1;  /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:71 */
-		sw1 = &user_button_2;  /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:72 */
-		sw2 = &user_button_3;  /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:73 */
-		lora0 = &lora;         /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:74 */
-		watchdog0 = &iwdg;     /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:75 */
-		die-temp0 = &die_temp; /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:76 */
-		volt-sensor0 = &vref;  /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:77 */
-		volt-sensor1 = &vbat;  /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:78 */
-		led0 = &blue_led_1;    /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:5 */
+		led0 = &green_led_2;    /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:69 */
+		rtc = &rtc;             /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:70 */
+		sw0 = &user_button_1;   /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:71 */
+		sw1 = &user_button_2;   /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:72 */
+		sw2 = &user_button_3;   /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:73 */
+		lora0 = &lora;          /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:74 */
+		watchdog0 = &iwdg;      /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:75 */
+		die-temp0 = &die_temp;  /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:76 */
+		volt-sensor0 = &vref;   /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:77 */
+		volt-sensor1 = &vbat;   /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:78 */
+		led-red = &rgb_red;     /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:5 */
+		led-green = &rgb_green; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:6 */
+		led-blue = &rgb_blue;   /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:7 */
 	};
 
 	/* node '/soc' defined in zephyr\dts\arm\armv7-m.dtsi:6 */
@@ -1087,7 +1090,7 @@
 
 	/* node '/leds' defined in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:27 */
 	leds: leds {
-		compatible = "gpio-leds"; /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:28 */
+		compatible = "gpio-leds"; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:11 */
 
 		/* node '/leds/led_0' defined in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:30 */
 		blue_led_1: led_0 {
@@ -1105,6 +1108,21 @@
 		red_led_3: led_2 {
 			gpios = < &gpiob 0xb 0x0 >; /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:41 */
 			label = "User LED3";        /* in zephyr\boards\st\nucleo_wl55jc\nucleo_wl55jc.dts:42 */
+		};
+
+		/* node '/leds/red' defined in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:13 */
+		rgb_red: red {
+			gpios = < &gpioa 0x5 0x1 >; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:14 */
+		};
+
+		/* node '/leds/green' defined in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:17 */
+		rgb_green: green {
+			gpios = < &gpioa 0x6 0x1 >; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:18 */
+		};
+
+		/* node '/leds/blue' defined in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:21 */
+		rgb_blue: blue {
+			gpios = < &gpioa 0x7 0x1 >; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:22 */
 		};
 	};
 
