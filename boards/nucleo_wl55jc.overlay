@@ -2,8 +2,21 @@
 
 / {
 	aliases {
-		led0 = &blue_led_1; 	// This is LED1 as labeled STM32WL55JC board's 
-		//led0 = &green_led_2; 	// This is LED2 as labeled STM32WL55JC board's 
-		//led0 = &red_led_3; 	// This is LED3 as labeled STM32WL55JC board's 
+		led_red = &rgb_red; 	// This is LED red of the LED RGB 
+		led_green = &rgb_green; 	// This is LED green of the LED RGB 
+		led_blue = &rgb_blue; 	// This is LED blue of the LED RGB 
 	};	
+};
+&gpioa {
+    rgb_red: rgb_red {
+        gpios = <&gpioa 5 GPIO_ACTIVE_LOW>;
+    };
+
+    rgb_green: rgb_green {
+        gpios = <&gpioa 6 GPIO_ACTIVE_LOW>;
+    };
+
+    rgb_blue: rgb_blue {
+        gpios = <&gpioa 7 GPIO_ACTIVE_LOW>;
+    };
 };
