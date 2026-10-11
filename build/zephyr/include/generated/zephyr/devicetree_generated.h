@@ -8501,7 +8501,6 @@
 
 /* Existence and alternate IDs: */
 #define DT_N_S_leds_S_led_1_EXISTS 1
-#define DT_N_ALIAS_led0            DT_N_S_leds_S_led_1
 #define DT_N_NODELABEL_green_led_2 DT_N_S_leds_S_led_1
 
 /* Macros for properties that are special in the specification: */
@@ -8612,6 +8611,7 @@
 
 /* Existence and alternate IDs: */
 #define DT_N_S_leds_S_led_2_EXISTS 1
+#define DT_N_ALIAS_led0          DT_N_S_leds_S_led_2
 #define DT_N_NODELABEL_red_led_3 DT_N_S_leds_S_led_2
 
 /* Macros for properties that are special in the specification: */

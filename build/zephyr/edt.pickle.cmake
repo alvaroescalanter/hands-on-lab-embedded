@@ -15,7 +15,7 @@ set_target_properties(${DEVICETREE_TARGET}
     "DT_ALIAS|die-temp0" "/dietemp"
     "DT_ALIAS|volt-sensor0" "/vref"
     "DT_ALIAS|volt-sensor1" "/vbat"
-    "DT_ALIAS|led0" "/leds/led_1"
+    "DT_ALIAS|led0" "/leds/led_2"
     "DT_ALIAS|sw0" "/gpio_keys/button_0"
     "DT_ALIAS|sw1" "/gpio_keys/button_1"
     "DT_ALIAS|sw2" "/gpio_keys/button_2"
