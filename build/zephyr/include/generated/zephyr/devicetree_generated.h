@@ -8427,7 +8427,7 @@
 #define DT_N_S_leds_S_blue_P_gpios_IDX_0_PH DT_N_S_soc_S_pin_controller_48000000_S_gpio_48000000
 #define DT_N_S_leds_S_blue_P_gpios_IDX_0_VAL_pin 7
 #define DT_N_S_leds_S_blue_P_gpios_IDX_0_VAL_pin_EXISTS 1
-#define DT_N_S_leds_S_blue_P_gpios_IDX_0_VAL_flags 1
+#define DT_N_S_leds_S_blue_P_gpios_IDX_0_VAL_flags 0
 #define DT_N_S_leds_S_blue_P_gpios_IDX_0_VAL_flags_EXISTS 1
 #define DT_N_S_leds_S_blue_P_gpios_IDX_0_FOREACH_CELL(fn) fn(DT_N_S_leds_S_blue, gpios, 0, pin) \
 	fn(DT_N_S_leds_S_blue, gpios, 0, flags)
@@ -8526,7 +8526,7 @@
 #define DT_N_S_leds_S_green_P_gpios_IDX_0_PH DT_N_S_soc_S_pin_controller_48000000_S_gpio_48000000
 #define DT_N_S_leds_S_green_P_gpios_IDX_0_VAL_pin 6
 #define DT_N_S_leds_S_green_P_gpios_IDX_0_VAL_pin_EXISTS 1
-#define DT_N_S_leds_S_green_P_gpios_IDX_0_VAL_flags 1
+#define DT_N_S_leds_S_green_P_gpios_IDX_0_VAL_flags 0
 #define DT_N_S_leds_S_green_P_gpios_IDX_0_VAL_flags_EXISTS 1
 #define DT_N_S_leds_S_green_P_gpios_IDX_0_FOREACH_CELL(fn) fn(DT_N_S_leds_S_green, gpios, 0, pin) \
 	fn(DT_N_S_leds_S_green, gpios, 0, flags)
@@ -8956,7 +8956,7 @@
 #define DT_N_S_leds_S_red_P_gpios_IDX_0_PH DT_N_S_soc_S_pin_controller_48000000_S_gpio_48000000
 #define DT_N_S_leds_S_red_P_gpios_IDX_0_VAL_pin 5
 #define DT_N_S_leds_S_red_P_gpios_IDX_0_VAL_pin_EXISTS 1
-#define DT_N_S_leds_S_red_P_gpios_IDX_0_VAL_flags 1
+#define DT_N_S_leds_S_red_P_gpios_IDX_0_VAL_flags 0
 #define DT_N_S_leds_S_red_P_gpios_IDX_0_VAL_flags_EXISTS 1
 #define DT_N_S_leds_S_red_P_gpios_IDX_0_FOREACH_CELL(fn) fn(DT_N_S_leds_S_red, gpios, 0, pin) \
 	fn(DT_N_S_leds_S_red, gpios, 0, flags)
