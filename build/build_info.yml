@@ -58,6 +58,6 @@ cmake:
     zephyr-base: 'C:/Users/alvar/zephyrproject/zephyr'
 version: '0.1.0'
 west:
-  command: 'C:\Users\alvar\zephyrproject\.venv\Scripts\west build -p auto -b nucleo_wl55jc C:\Users\alvar\brightnessm_IoT -d C:\Users\alvar\brightnessm_IoT\build -DZephyr-sdk_DIR=C:/Users/alvar/zephyr-sdk-1.0.1/cmake -DUSER_CACHE_DIR=C:\Users\alvar\brightnessm_IoT/.zephyr-cache -DDTC_OVERLAY_FILE=./boards/nucleo_wl55jc.overlay -DCONF_FILE=./confs/prj_nucleo_wl55jc.conf -DUSE_CCACHE=0'
+  command: 'C:\Users\alvar\zephyrproject\.venv\Scripts\west build -p auto -b nucleo_wl55jc C:\Users\alvar\brightnessm_iot -d C:\Users\alvar\brightnessm_iot\build -DZephyr-sdk_DIR=C:/Users/alvar/zephyr-sdk-1.0.1/cmake -DUSER_CACHE_DIR=C:\Users\alvar\brightnessm_iot/.zephyr-cache -DDTC_OVERLAY_FILE=./boards/nucleo_wl55jc.overlay -DCONF_FILE=./confs/prj_nucleo_wl55jc.conf -DUSE_CCACHE=0'
   topdir: 'C:\Users\alvar\zephyrproject'
   version: '1.5.0'
