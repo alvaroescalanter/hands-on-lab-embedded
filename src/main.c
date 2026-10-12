@@ -27,8 +27,8 @@ int main(void)
     gpio_pin_configure_dt(&led_blue, GPIO_OUTPUT_INACTIVE);
 
     // Apagar todos los LEDs (ánodo común → HIGH = apagado)
-    gpio_pin_set_dt(&led_red, 0);
-    gpio_pin_set_dt(&led_green, 0);
+    gpio_pin_set_dt(&led_red, 1);
+    gpio_pin_set_dt(&led_green, 1);
     gpio_pin_set_dt(&led_blue, 0);
 
     return 0; // Si encuentra el dispositivo, retorna 0 indicando éxito
