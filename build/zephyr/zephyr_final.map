@@ -319,9 +319,9 @@ Discarded input sections
  .bss           0x00000000        0x0 app/libapp.a(led_control.c.obj)
  .text.led_set_blue
                 0x00000000       0x2c app/libapp.a(led_control.c.obj)
- .text.led_set_green
+ .text.led_set_red
                 0x00000000       0x2c app/libapp.a(led_control.c.obj)
- .text.led_set_yellow
+ .text.led_set_green
                 0x00000000       0x2c app/libapp.a(led_control.c.obj)
  .text.led_set_off
                 0x00000000       0x2c app/libapp.a(led_control.c.obj)
@@ -2103,9 +2103,9 @@ text            0x08000114     0x5a58
  .text.led_init
                 0x08000414       0x6c app/libapp.a(led_control.c.obj)
                 0x08000414                led_init
- .text.led_set_red
+ .text.led_set_yellow
                 0x08000480       0x2c app/libapp.a(led_control.c.obj)
-                0x08000480                led_set_red
+                0x08000480                led_set_yellow
  .text.main     0x080004ac       0x2c app/libapp.a(main.c.obj)
                 0x080004ac                main
  .text.boot_banner
@@ -4560,7 +4560,7 @@ net_buf_pool_area
                                 0x39a (size before relaxing)
  .debug_str     0x0000b58b      0x3e3 zephyr/CMakeFiles/offsets.dir/./arch/arm/core/offsets/offsets.c.obj
  .debug_str     0x0000b58b      0xa78 app/libapp.a(led_control.c.obj)
- .debug_str     0x0000b58b      0x377 app/libapp.a(main.c.obj)
+ .debug_str     0x0000b58b      0x37a app/libapp.a(main.c.obj)
  .debug_str     0x0000b58b      0xeb8 zephyr/libzephyr.a(heap.c.obj)
  .debug_str     0x0000b58b      0x564 zephyr/libzephyr.a(boot_banner.c.obj)
  .debug_str     0x0000b58b      0xd21 zephyr/libzephyr.a(cbprintf_packaged.c.obj)

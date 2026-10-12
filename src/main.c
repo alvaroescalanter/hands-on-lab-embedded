@@ -9,8 +9,8 @@ void main(void)
     // Inicializar el LED RGB usando tu módulo
     led_init();
 
-    // Encender un color inicial (por ejemplo azul)
-    led_set_red();
+    // Encender un color inicial R - G - B - Y
+    led_set_yellow();
 
     while (1) {
         printk("main.c funcionando...\n");
