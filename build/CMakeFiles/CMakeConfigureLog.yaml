@@ -8502,3 +8502,283 @@ events:
         - "C:\\Users\\alvar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPython/Support.cmake:2631 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPython3.cmake:699 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/python.cmake:95 (find_package)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:88 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.15_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.15_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.15_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.14_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.12_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\alvar\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\alvar\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\alvar\\AppData\\Roaming\\npm"
+        - "C:\\Users\\alvar\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\alvar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:116 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:88 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/"
+    searched_directories:
+      - "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/alvar/zephyr-sdk-1.0.1/hosttools/qemu"
+        - "C:/Users/alvar/zephyr-sdk-1.0.1/hosttools/qemu-arc"
+        - "C:/Users/alvar/zephyr-sdk-1.0.1/hosttools/openocd"
+      ENV{PATH}:
+        - "c:\\Users\\alvar\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\alvar\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\alvar\\AppData\\Roaming\\npm"
+        - "C:\\Users\\alvar\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\alvar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPython/Support.cmake:2631 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPython3.cmake:699 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/python.cmake:95 (find_package)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:88 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.15_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.15_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.15_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.14_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3.12_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Users/alvar/zephyrproject/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\alvar\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\alvar\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\alvar\\AppData\\Roaming\\npm"
+        - "C:\\Users\\alvar\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\alvar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:116 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "C:/Users/alvar/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "C:/Users/alvar/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:88 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/"
+    searched_directories:
+      - "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/alvar/zephyr-sdk-1.0.1/hosttools/qemu"
+        - "C:/Users/alvar/zephyr-sdk-1.0.1/hosttools/qemu-arc"
+        - "C:/Users/alvar/zephyr-sdk-1.0.1/hosttools/openocd"
+      ENV{PATH}:
+        - "c:\\Users\\alvar\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\alvar\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Python312\\Scripts\\"
+        - "C:\\Python312\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\alvar\\AppData\\Roaming\\npm"
+        - "C:\\Users\\alvar\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\alvar\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\alvar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...

@@ -3,6 +3,7 @@
 #include <zephyr/drivers/gpio.h>
 #include <errno.h>
 #include "led_control.h"   // Importamos tu módulo de LEDs
+#include "fsm.h" // Imp módulo de FSM para obtener el modo actual del sistema
 
 // Obtener los nodos de los LEDs desde el Device Tree
 #define LED_RED_NODE DT_ALIAS(led_red)
@@ -69,4 +70,25 @@ void led_set_off(void)
     gpio_pin_set_dt(&led_red,   1);
     gpio_pin_set_dt(&led_green, 1);
     gpio_pin_set_dt(&led_blue,  1);
+}
+// Función para actualizar el estado del LED según el modo del sistema
+void led_update_mode(void)
+{
+    enum system_mode mode = fsm_get_mode();
+
+    switch (mode) {
+
+    case MODE_NORMAL:
+        // Por ahora, en NORMAL encendemos verde (luego lo cambiaremos por ADC)
+        led_set_green();
+        break;
+
+    case MODE_BLUE:
+        led_set_blue();
+        break;
+
+    case MODE_OFF:
+        led_set_off();
+        break;
+    }
 }
