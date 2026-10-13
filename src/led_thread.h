@@ -1,5 +1,5 @@
-#ifndef LED_CONTROL_H // Evitar inclusión múltiple
-#define LED_CONTROL_H
+#ifndef LED_THREAD_H // Evitar inclusión múltiple
+#define LED_THREAD_H
 // Declaración de funciones para el control de LEDs
 void led_init(void);
 void led_set_blue(void);

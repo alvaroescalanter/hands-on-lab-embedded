@@ -2,7 +2,7 @@
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
 #include <errno.h>
-#include "led_control.h"   // Importamos tu módulo de LEDs
+#include "led_thread.h"   // Importamos tu módulo de LEDs
 #include "fsm.h" // Imp módulo de FSM para obtener el modo actual del sistema
 
 // Obtener los nodos de los LEDs desde el Device Tree
