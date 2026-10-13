@@ -2240,15 +2240,15 @@ arduino_spi: &spi1 {};
   compatible = "gpio-leds";
 
   rgb_red: red {
-   gpios = <&gpioa 5 (1 << 0)>;
+   gpios = <&gpioa 5 (0 << 0)>;
   };
 
   rgb_green: green {
-   gpios = <&gpioa 6 (1 << 0)>;
+   gpios = <&gpioa 6 (0 << 0)>;
   };
 
   rgb_blue: blue {
-   gpios = <&gpioa 7 (1 << 0)>;
+   gpios = <&gpioa 7 (0 << 0)>;
   };
  };
 };

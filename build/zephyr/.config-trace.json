@@ -509,71 +509,89 @@
     "CONFIG_INPUT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      53
+    ]
   ],
   [
     "CONFIG_WIFI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      54
+    ]
   ],
   [
     "CONFIG_MAIN_STACK_SIZE",
     "y",
     "int",
     "1024",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      144
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      55
     ]
   ],
   [
     "CONFIG_REGULATOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      56
+    ]
   ],
   [
     "CONFIG_SYSTEM_WORKQUEUE_STACK_SIZE",
     "y",
     "int",
     "1024",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      533
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      57
     ]
   ],
   [
     "CONFIG_SPI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      58
+    ]
   ],
   [
     "CONFIG_I2C",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      59
+    ]
   ],
   [
     "CONFIG_BT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      60
+    ]
   ],
   [
     "CONFIG_GPIO",
@@ -582,8 +600,8 @@
     "y",
     "assign",
     [
-      "C:/Users/alvar/brightnessm_iot/./confs/prj_nucleo_wl55jc.conf",
-      11
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      61
     ]
   ],
   [
@@ -593,49 +611,64 @@
     "y",
     "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/boards/st/nucleo_wl55jc/nucleo_wl55jc_defconfig",
-      5
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      62
     ]
   ],
   [
     "CONFIG_MIPI_DSI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      63
+    ]
   ],
   [
     "CONFIG_MEMC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      64
+    ]
   ],
   [
     "CONFIG_MODEM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      65
+    ]
   ],
   [
     "CONFIG_UART_INTERRUPT_DRIVEN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      66
+    ]
   ],
   [
     "CONFIG_GNSS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      67
+    ]
   ],
   [
     "CONFIG_NUM_IRQS",
@@ -653,10 +686,10 @@
     "y",
     "int",
     "48000000",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/soc/st/stm32/Kconfig.defconfig",
-      100
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      69
     ]
   ],
   [
@@ -664,10 +697,10 @@
     "y",
     "int",
     "256",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      342
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      70
     ]
   ],
   [
@@ -675,10 +708,10 @@
     "y",
     "hex",
     "0x8000000",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/soc/st/stm32/Kconfig.defconfig",
-      144
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      71
     ]
   ],
   [
@@ -686,10 +719,10 @@
     "y",
     "int",
     "1",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\smp\\Kconfig",
-      15
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      72
     ]
   ],
   [
@@ -697,10 +730,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/soc/st/stm32/Kconfig.defconfig",
-      18
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      73
     ]
   ],
   [
@@ -708,10 +741,10 @@
     "y",
     "int",
     "256",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      159
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      74
     ]
   ],
   [
@@ -719,10 +752,10 @@
     "y",
     "int",
     "2048",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      168
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      75
     ]
   ],
   [
@@ -730,10 +763,10 @@
     "y",
     "int",
     "10000",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      731
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      76
     ]
   ],
   [
@@ -741,10 +774,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      805
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      77
     ]
   ],
   [
@@ -752,10 +785,10 @@
     "y",
     "hex",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      165
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      78
     ]
   ],
   [
@@ -763,10 +796,10 @@
     "y",
     "string",
     "__start",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      237
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      79
     ]
   ],
   [
@@ -776,26 +809,30 @@
     "y",
     "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/boards/st/nucleo_wl55jc/nucleo_wl55jc_defconfig",
-      12
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      80
     ]
   ],
   [
     "CONFIG_CPU_HAS_CUSTOM_FIXED_SOC_MPU_REGIONS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      81
+    ]
   ],
   [
     "CONFIG_XIP",
     "y",
     "bool",
     "y",
-    "imply",
+    "assign",
     [
-      "CPU_CORTEX_M && ARM"
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      82
     ]
   ],
   [
@@ -812,25 +849,34 @@
     "CONFIG_COUNTER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      84
+    ]
   ],
   [
     "CONFIG_SHARED_INTERRUPTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      85
+    ]
   ],
   [
     "CONFIG_SRAM_VECTOR_TABLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      86
+    ]
   ],
   [
     "CONFIG_CPU_HAS_ARM_MPU",
@@ -847,45 +893,54 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/soc/st/stm32/Kconfig",
-      42
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      88
     ]
   ],
   [
     "CONFIG_PM_DEVICE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      89
+    ]
   ],
   [
     "CONFIG_OTP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      90
+    ]
   ],
   [
     "CONFIG_NVMEM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      91
+    ]
   ],
   [
     "CONFIG_TICKLESS_KERNEL",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      1105
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      92
     ]
   ],
   [
@@ -893,10 +948,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\timer\\Kconfig.cortex_m_systick",
-      9
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      93
     ]
   ],
   [
@@ -904,115 +959,142 @@
     "y",
     "int",
     "1",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/soc/st/stm32/Kconfig.defconfig",
-      131
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      94
     ]
   ],
   [
     "CONFIG_USE_DT_CODE_PARTITION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      95
+    ]
   ],
   [
     "CONFIG_STM32_BACKUP_PROTECTION",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/soc/st/stm32/Kconfig.defconfig",
-      166
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      96
     ]
   ],
   [
     "CONFIG_DYNAMIC_THREAD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      97
+    ]
   ],
   [
     "CONFIG_MULTI_LEVEL_INTERRUPTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      98
+    ]
   ],
   [
     "CONFIG_PM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      99
+    ]
   ],
   [
     "CONFIG_ZERO_LATENCY_IRQS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      100
+    ]
   ],
   [
     "CONFIG_NUM_METAIRQ_PRIORITIES",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      112
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      101
     ]
   ],
   [
     "CONFIG_SRAM_SW_ISR_TABLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      102
+    ]
   ],
   [
     "CONFIG_CODE_DATA_RELOCATION_SRAM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      103
+    ]
   ],
   [
     "CONFIG_SYSTEM_CLOCK_HW_CYCLES_PER_SEC_RUNTIME_UPDATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      104
+    ]
   ],
   [
     "CONFIG_POWER_DOMAIN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      105
+    ]
   ],
   [
     "CONFIG_NUM_PREEMPT_PRIORITIES",
     "y",
     "int",
     "15",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      54
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      106
     ]
   ],
   [
@@ -1030,48 +1112,54 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      631
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      108
     ]
   ],
   [
     "CONFIG_DYNAMIC_INTERRUPTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      109
+    ]
   ],
   [
     "CONFIG_GEN_ISR_TABLES",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/arch/arm/core/cortex_m/Kconfig",
-      329
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      110
     ]
   ],
   [
     "CONFIG_INIT_STACKS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      111
+    ]
   ],
   [
     "CONFIG_TIMESLICE_SIZE",
     "y",
     "int",
     "20",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      591
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      112
     ]
   ],
   [
@@ -1079,10 +1167,10 @@
     "y",
     "hex",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      135
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      113
     ]
   ],
   [
@@ -1090,70 +1178,88 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      767
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      114
     ]
   ],
   [
     "CONFIG_INIT_ARCH_HW_AT_BOOT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      115
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_S19",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      116
+    ]
   ],
   [
     "CONFIG_ROMSTART_RELOCATION_ROM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      117
+    ]
   ],
   [
     "CONFIG_RESET_INIT_PRIORITY",
     "y",
     "int",
     "35",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\reset\\Kconfig",
-      21
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      118
     ]
   ],
   [
     "CONFIG_TIMER_READS_ITS_FREQUENCY_AT_RUNTIME",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      119
+    ]
   ],
   [
     "CONFIG_FLASH",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      120
+    ]
   ],
   [
     "CONFIG_CODE_DATA_RELOCATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      121
+    ]
   ],
   [
     "CONFIG_HW_STACK_PROTECTION",
@@ -1162,8 +1268,8 @@
     "y",
     "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/boards/st/nucleo_wl55jc/nucleo_wl55jc_defconfig",
-      15
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      122
     ]
   ],
   [
@@ -1180,25 +1286,34 @@
     "CONFIG_WUC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      124
+    ]
   ],
   [
     "CONFIG_MFD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      125
+    ]
   ],
   [
     "CONFIG_CACHE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      126
+    ]
   ],
   [
     "CONFIG_LOG",
@@ -1207,27 +1322,30 @@
     "y",
     "assign",
     [
-      "C:/Users/alvar/brightnessm_iot/./confs/prj_nucleo_wl55jc.conf",
-      10
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      127
     ]
   ],
   [
     "CONFIG_PM_CPU_OPS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      128
+    ]
   ],
   [
     "CONFIG_ARCH_SW_ISR_TABLE_ALIGN",
     "y",
     "int",
     "4",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      716
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      129
     ]
   ],
   [
@@ -1235,65 +1353,77 @@
     "y",
     "string",
     "",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.misc",
-      124
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      130
     ]
   ],
   [
     "CONFIG_ASSERT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      131
+    ]
   ],
   [
     "CONFIG_LOG_PROCESS_THREAD_STACK_SIZE",
     "y",
     "int",
     "768",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.processing",
-      95
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      132
     ]
   ],
   [
     "CONFIG_DEVICE_DEPS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      133
+    ]
   ],
   [
     "CONFIG_UART_USE_RUNTIME_CONFIGURE",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\serial\\Kconfig",
-      59
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      134
     ]
   ],
   [
     "CONFIG_PINCTRL_KEEP_SLEEP_STATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      135
+    ]
   ],
   [
     "CONFIG_SYSCON",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      136
+    ]
   ],
   [
     "CONFIG_SOC_EARLY_INIT_HOOK",
@@ -1312,27 +1442,30 @@
     "y",
     "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/boards/st/nucleo_wl55jc/nucleo_wl55jc_defconfig",
-      8
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      138
     ]
   ],
   [
     "CONFIG_WINSTREAM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      139
+    ]
   ],
   [
     "CONFIG_COMMON_LIBC_MALLOC_ARENA_SIZE",
     "y",
     "int",
     "-1",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\libc\\common\\Kconfig",
-      64
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      140
     ]
   ],
   [
@@ -1340,19 +1473,22 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      678
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      141
     ]
   ],
   [
     "CONFIG_REBOOT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      142
+    ]
   ],
   [
     "CONFIG_GEN_IRQ_START_VECTOR",
@@ -1380,19 +1516,22 @@
     "CONFIG_SPIN_VALIDATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      145
+    ]
   ],
   [
     "CONFIG_ARCH_IRQ_VECTOR_TABLE_ALIGN",
     "y",
     "int",
     "4",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      643
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      146
     ]
   ],
   [
@@ -1410,19 +1549,22 @@
     "CONFIG_BOOTLOADER_MCUBOOT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      148
+    ]
   ],
   [
     "CONFIG_KERNEL_MEM_POOL",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      673
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      149
     ]
   ],
   [
@@ -1430,73 +1572,88 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      14
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      150
     ]
   ],
   [
     "CONFIG_OUTPUT_DISASSEMBLY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      151
+    ]
   ],
   [
     "CONFIG_LINKER_USE_RELAX",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      323
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      152
     ]
   ],
   [
     "CONFIG_WATCHDOG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      153
+    ]
   ],
   [
     "CONFIG_STATIC_INIT_GNU",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      154
+    ]
   ],
   [
     "CONFIG_BUILD_GAP_FILL_PATTERN",
     "y",
     "hex",
     "0xFF",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      782
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      155
     ]
   ],
   [
     "CONFIG_BUILD_ONLY_NO_BLOBS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      160
+    ]
   ],
   [
     "CONFIG_ACPI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      173
+    ]
   ],
   [
     "CONFIG_ZEPHYR_ACPICA_MODULE",
@@ -1546,9 +1703,12 @@
     "CONFIG_CMSIS_DSP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      190
+    ]
   ],
   [
     "CONFIG_ZEPHYR_CMSIS_NN_MODULE",
@@ -1565,9 +1725,12 @@
     "CONFIG_CMSIS_NN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      197
+    ]
   ],
   [
     "CONFIG_ZEPHYR_CMSIS_6_MODULE",
@@ -1594,9 +1757,12 @@
     "CONFIG_CMSIS_M_CHECK_DEVICE_DEFINES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      205
+    ]
   ],
   [
     "CONFIG_ZEPHYR_DHARA_MODULE",
@@ -1690,9 +1856,12 @@
     "CONFIG_ETHOS_U",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      251
+    ]
   ],
   [
     "CONFIG_ZEPHYR_HAL_ETHOS_U_MODULE",
@@ -1731,9 +1900,12 @@
     "CONFIG_USE_INFINEON_ABSTRACTION_RTOS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      265
+    ]
   ],
   [
     "CONFIG_ZEPHYR_HAL_INTEL_MODULE",
@@ -1794,17 +1966,23 @@
     "CONFIG_NXP_MULTICORE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      288
+    ]
   ],
   [
     "CONFIG_RPMSGLITE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      289
+    ]
   ],
   [
     "CONFIG_ZEPHYR_OPENISA_MODULE",
@@ -1920,9 +2098,12 @@
     "CONFIG_TDK_HAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      337
+    ]
   ],
   [
     "CONFIG_ZEPHYR_HAL_TELINK_MODULE",
@@ -1983,9 +2164,12 @@
     "CONFIG_WIFI_NM_WPA_SUPPLICANT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      361
+    ]
   ],
   [
     "CONFIG_ZEPHYR_HOSTAP_MODULE",
@@ -2046,9 +2230,12 @@
     "CONFIG_LIBSBC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      378
+    ]
   ],
   [
     "CONFIG_ZEPHYR_LITTLEFS_MODULE",
@@ -2087,9 +2274,12 @@
     "CONFIG_HAS_SEMTECH_RADIO_DRIVERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      397
+    ]
   ],
   [
     "CONFIG_ZEPHYR_LVGL_MODULE",
@@ -2139,9 +2329,12 @@
     "CONFIG_PSA_CRYPTO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      412
+    ]
   ],
   [
     "CONFIG_ZEPHYR_MCUBOOT_MODULE",
@@ -2191,9 +2384,12 @@
     "CONFIG_NANOPB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      423
+    ]
   ],
   [
     "CONFIG_ZEPHYR_NRF_WIFI_MODULE",
@@ -2210,9 +2406,12 @@
     "CONFIG_NRF70_BUSLIB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      430
+    ]
   ],
   [
     "CONFIG_ZEPHYR_OPEN_AMP_MODULE",
@@ -2229,9 +2428,12 @@
     "CONFIG_OPENTHREAD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      438
+    ]
   ],
   [
     "CONFIG_ZEPHYR_OPENTHREAD_MODULE",
@@ -2248,9 +2450,12 @@
     "CONFIG_PERCEPIO_DFM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      449
+    ]
   ],
   [
     "CONFIG_ZEPHYR_PERCEPIO_MODULE",
@@ -2267,9 +2472,12 @@
     "CONFIG_PICOLIBC_MODULE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      456
+    ]
   ],
   [
     "CONFIG_ZEPHYR_PICOLIBC_MODULE",
@@ -2329,9 +2537,12 @@
     "CONFIG_USE_SEGGER_RTT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      468
+    ]
   ],
   [
     "CONFIG_ZEPHYR_TF_M_TESTS_MODULE",
@@ -2370,9 +2581,12 @@
     "CONFIG_BUILD_WITH_TFA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      478
+    ]
   ],
   [
     "CONFIG_ZEPHYR_TRUSTED_FIRMWARE_M_MODULE",
@@ -2411,9 +2625,12 @@
     "CONFIG_ZCBOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      497
+    ]
   ],
   [
     "CONFIG_ZEPHYR_XENLIB_MODULE",
@@ -2441,49 +2658,67 @@
     "CONFIG_LIBMETAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      507
+    ]
   ],
   [
     "CONFIG_LVGL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      508
+    ]
   ],
   [
     "CONFIG_HAS_MEC_HAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      509
+    ]
   ],
   [
     "CONFIG_HAS_MPFS_HAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      510
+    ]
   ],
   [
     "CONFIG_HAS_MEC5_HAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      511
+    ]
   ],
   [
     "CONFIG_OPENAMP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      512
+    ]
   ],
   [
     "CONFIG_HAS_STM32CUBE",
@@ -2509,25 +2744,34 @@
     "CONFIG_MIPI_SYST_LIB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      515
+    ]
   ],
   [
     "CONFIG_HAS_TELINK_DRIVERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      516
+    ]
   ],
   [
     "CONFIG_MCUBOOT_BOOTUTIL_LIB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      517
+    ]
   ],
   [
     "CONFIG_BOARD",
@@ -2566,9 +2810,12 @@
     "CONFIG_NET_DRIVERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      527
+    ]
   ],
   [
     "CONFIG_BOARD_NUCLEO_WL55JC",
@@ -2670,36 +2917,45 @@
     "CONFIG_HWINFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      546
+    ]
   ],
   [
     "CONFIG_STM32_ENABLE_DEBUG_SLEEP_STOP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      547
+    ]
   ],
   [
     "CONFIG_SWJ_ANALOG_PRIORITY",
     "y",
     "int",
     "49",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/soc/st/stm32/common/Kconfig",
-      37
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      548
     ]
   ],
   [
     "CONFIG_STM32_XSPIM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      549
+    ]
   ],
   [
     "CONFIG_HAS_STM32_FLASH_PREFETCH",
@@ -2715,19 +2971,22 @@
     "CONFIG_BUILD_OUTPUT_INFO_HEADER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      551
+    ]
   ],
   [
     "CONFIG_GPIO_INIT_PRIORITY",
     "y",
     "int",
     "40",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\gpio\\Kconfig",
-      50
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      552
     ]
   ],
   [
@@ -2775,11 +3034,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SOC_LOG_LEVEL",
@@ -2838,9 +3094,12 @@
     "CONFIG_MPU_ALLOW_FLASH_WRITE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      566
+    ]
   ],
   [
     "CONFIG_CPU_CORTEX_M",
@@ -2856,9 +3115,12 @@
     "CONFIG_ARM_ZIMAGE_HEADER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      572
+    ]
   ],
   [
     "CONFIG_ISA_THUMB2",
@@ -2886,10 +3148,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/arch/arm/core/Kconfig",
-      168
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      575
     ]
   ],
   [
@@ -2897,29 +3159,32 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/arch/arm/core/Kconfig",
-      186
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      576
     ]
   ],
   [
     "CONFIG_RUNTIME_NMI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      577
+    ]
   ],
   [
     "CONFIG_FAULT_DUMP",
     "y",
     "int",
     "2",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/arch/arm/core/Kconfig",
-      221
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      578
     ]
   ],
   [
@@ -2938,10 +3203,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/arch/arm/core/Kconfig",
-      352
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      580
     ]
   ],
   [
@@ -2949,11 +3214,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:/Users/alvar/zephyrproject/zephyr/arch/arm/core/Kconfig",
-      360
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_FP16_ALT",
@@ -3037,44 +3299,53 @@
     "CONFIG_SW_VECTOR_RELAY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      594
+    ]
   ],
   [
     "CONFIG_CORTEX_M_DWT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      595
+    ]
   ],
   [
     "CONFIG_CORTEX_M_DEBUG_MONITOR_HOOK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      596
+    ]
   ],
   [
     "CONFIG_TRAP_UNALIGNED_ACCESS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      597
+    ]
   ],
   [
     "CONFIG_NULL_POINTER_EXCEPTION_DETECTION_NONE",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:/Users/alvar/zephyrproject/zephyr/arch/arm/core/cortex_m/Kconfig",
-      423
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_NULL_POINTER_EXCEPTION_DETECTION_DWT",
@@ -3096,9 +3367,12 @@
     "CONFIG_CORTEX_M_ERRATUM_440977_WORKAROUND",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      603
+    ]
   ],
   [
     "CONFIG_MPU_STACK_GUARD",
@@ -3114,44 +3388,56 @@
     "CONFIG_MPU_DISABLE_BACKGROUND_MAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      605
+    ]
   ],
   [
     "CONFIG_CUSTOM_SECTION_ALIGN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      606
+    ]
   ],
   [
     "CONFIG_CUSTOM_SECTION_MIN_ALIGN_SIZE",
     "y",
     "int",
     "32",
-    "default",
+    "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/arch/arm/core/mpu/Kconfig",
-      88
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      607
     ]
   ],
   [
     "CONFIG_ARM_MPU_SRAM_WRITE_THROUGH",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      608
+    ]
   ],
   [
     "CONFIG_ARM_MPU_SKIP_ARCH_INIT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      609
+    ]
   ],
   [
     "CONFIG_ARCH_HAS_LLEXT_VENEERS",
@@ -3187,17 +3473,23 @@
     "CONFIG_SEMIHOST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      619
+    ]
   ],
   [
     "CONFIG_ARCH_HAS_WORD_GRANULAR_ACCESS_INSTR_MEM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      620
+    ]
   ],
   [
     "CONFIG_ARCH_SUPPORTS_ROM_OFFSET",
@@ -3214,19 +3506,22 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\common\\Kconfig",
-      43
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      622
     ]
   ],
   [
     "CONFIG_EXCEPTION_DUMP_HOOK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      623
+    ]
   ],
   [
     "CONFIG_ARCH_LOG_LEVEL_OFF",
@@ -3273,11 +3568,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_ARCH_LOG_LEVEL",
@@ -3306,10 +3598,10 @@
     "y",
     "int",
     "64",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      309
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      632
     ]
   ],
   [
@@ -3317,27 +3609,33 @@
     "y",
     "hex",
     "0x20000000",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      318
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      633
     ]
   ],
   [
     "CONFIG_USERSPACE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      634
+    ]
   ],
   [
     "CONFIG_NOINIT_SNIPPET_FIRST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      635
+    ]
   ],
   [
     "CONFIG_GEN_PRIV_STACKS",
@@ -3353,35 +3651,44 @@
     "CONFIG_STACK_GROWS_UP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      637
+    ]
   ],
   [
     "CONFIG_FRAME_POINTER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      638
+    ]
   ],
   [
     "CONFIG_ISR_TABLES_LOCAL_DECLARATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      643
+    ]
   ],
   [
     "CONFIG_ARCH_DEVICE_STATE_ALIGN",
     "y",
     "int",
     "4",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      653
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      644
     ]
   ],
   [
@@ -3389,11 +3696,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      661
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_IRQ_VECTOR_TABLE_JUMP_BY_CODE",
@@ -3408,11 +3712,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      689
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_GEN_SW_ISR_TABLE_SWITCH",
@@ -3427,27 +3728,33 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\arch\\Kconfig",
-      771
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      649
     ]
   ],
   [
     "CONFIG_EXTRA_EXCEPTION_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      650
+    ]
   ],
   [
     "CONFIG_SIMPLIFIED_EXCEPTION_CODES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      651
+    ]
   ],
   [
     "CONFIG_ARCH_MEM_DOMAIN_SUPPORTS_ISOLATED_STACKS",
@@ -3754,11 +4061,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_MPU_LOG_LEVEL",
@@ -3795,9 +4099,12 @@
     "CONFIG_CACHE_DOUBLEMAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      704
+    ]
   ],
   [
     "CONFIG_TOOLCHAIN_HAS_BUILTIN_FFS",
@@ -3865,11 +4172,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_KERNEL_LOG_LEVEL",
@@ -3887,10 +4191,10 @@
     "y",
     "int",
     "16",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      29
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      720
     ]
   ],
   [
@@ -3898,10 +4202,10 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      72
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      721
     ]
   ],
   [
@@ -3931,19 +4235,22 @@
     "y",
     "int",
     "-128",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      101
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      724
     ]
   ],
   [
     "CONFIG_SCHED_DEADLINE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      725
+    ]
   ],
   [
     "CONFIG_THREAD_STACK_INFO",
@@ -3959,20 +4266,20 @@
     "CONFIG_THREAD_CUSTOM_DATA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      727
+    ]
   ],
   [
     "CONFIG_SCHED_SIMPLE",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      273
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SCHED_SCALABLE",
@@ -4003,11 +4310,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      325
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SEM_LOCK_STRIPES",
@@ -4025,96 +4329,120 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      380
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      738
     ]
   ],
   [
     "CONFIG_NONZERO_SPINLOCK_SIZE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      739
+    ]
   ],
   [
     "CONFIG_THREAD_MONITOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      745
+    ]
   ],
   [
     "CONFIG_THREAD_NAME",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      746
+    ]
   ],
   [
     "CONFIG_THREAD_RUNTIME_STATS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      747
+    ]
   ],
   [
     "CONFIG_THREAD_RUNTIME_STACK_SAFETY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      748
+    ]
   ],
   [
     "CONFIG_OBJ_CORE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      751
+    ]
   ],
   [
     "CONFIG_WORKQUEUE_WORK_TIMEOUT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      752
+    ]
   ],
   [
     "CONFIG_SYSTEM_WORKQUEUE_PRIORITY",
     "y",
     "int",
     "-1",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      539
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      757
     ]
   ],
   [
     "CONFIG_SYSTEM_WORKQUEUE_NO_YIELD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      758
+    ]
   ],
   [
     "CONFIG_SYSTEM_WORKQUEUE_WORK_TIMEOUT_MS",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      557
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      759
     ]
   ],
   [
@@ -4132,10 +4460,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      583
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      771
     ]
   ],
   [
@@ -4143,61 +4471,76 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      602
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      772
     ]
   ],
   [
     "CONFIG_TIMESLICE_PER_THREAD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      773
+    ]
   ],
   [
     "CONFIG_TIMER_OBSERVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      774
+    ]
   ],
   [
     "CONFIG_POLL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      780
+    ]
   ],
   [
     "CONFIG_MEM_SLAB_POINTER_VALIDATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      781
+    ]
   ],
   [
     "CONFIG_MEM_SLAB_TRACE_MAX_UTILIZATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      782
+    ]
   ],
   [
     "CONFIG_NUM_MBOX_ASYNC_MSGS",
     "y",
     "int",
     "10",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      651
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      783
     ]
   ],
   [
@@ -4207,8 +4550,8 @@
     "y",
     "assign",
     [
-      "C:/Users/alvar/brightnessm_iot/./confs/prj_nucleo_wl55jc.conf",
-      8
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      784
     ]
   ],
   [
@@ -4216,19 +4559,22 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      683
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      785
     ]
   ],
   [
     "CONFIG_HEAP_MEM_POOL_IGNORE_MIN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      786
+    ]
   ],
   [
     "CONFIG_SWAP_NONATOMIC",
@@ -4255,11 +4601,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      788
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_TIMEOUT_BACKEND_MINHEAP",
@@ -4298,19 +4641,22 @@
     "y",
     "int",
     "365",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      900
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      796
     ]
   ],
   [
     "CONFIG_USE_SWITCH",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      803
+    ]
   ],
   [
     "CONFIG_USE_SWITCH_SUPPORTED",
@@ -4357,35 +4703,44 @@
     "CONFIG_DEVICE_MUTABLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      819
+    ]
   ],
   [
     "CONFIG_DEVICE_DT_METADATA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      820
+    ]
   ],
   [
     "CONFIG_DEVICE_DEINIT_SUPPORT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      821
+    ]
   ],
   [
     "CONFIG_KERNEL_INIT_PRIORITY_OBJECTS",
     "y",
     "int",
     "30",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      50
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      827
     ]
   ],
   [
@@ -4393,10 +4748,10 @@
     "y",
     "int",
     "35",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      58
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      828
     ]
   ],
   [
@@ -4404,10 +4759,10 @@
     "y",
     "int",
     "40",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      66
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      829
     ]
   ],
   [
@@ -4415,10 +4770,10 @@
     "y",
     "int",
     "50",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      72
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      830
     ]
   ],
   [
@@ -4426,75 +4781,99 @@
     "y",
     "int",
     "90",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      80
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      831
     ]
   ],
   [
     "CONFIG_ADC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      852
+    ]
   ],
   [
     "CONFIG_AUDIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      853
+    ]
   ],
   [
     "CONFIG_AUXDISPLAY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      854
+    ]
   ],
   [
     "CONFIG_BBRAM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      855
+    ]
   ],
   [
     "CONFIG_BIOMETRICS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      856
+    ]
   ],
   [
     "CONFIG_BUZZER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      857
+    ]
   ],
   [
     "CONFIG_CAN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      858
+    ]
   ],
   [
     "CONFIG_CHARGER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      859
+    ]
   ],
   [
     "CONFIG_CLOCK_CONTROL_LOG_LEVEL_OFF",
@@ -4541,11 +4920,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_CLOCK_CONTROL_LOG_LEVEL",
@@ -4562,19 +4938,22 @@
     "CONFIG_CLOCK_CONTROL_FIXED_RATE_CLOCK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      867
+    ]
   ],
   [
     "CONFIG_CLOCK_CONTROL_NRF_ONOFF",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\clock_control\\Kconfig.nrf",
-      15
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      868
     ]
   ],
   [
@@ -4582,37 +4961,43 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\clock_control\\Kconfig.stm32",
-      11
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      869
     ]
   ],
   [
     "CONFIG_CLOCK_MONITOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      870
+    ]
   ],
   [
     "CONFIG_COMPARATOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      871
+    ]
   ],
   [
     "CONFIG_CONSOLE_INPUT_MAX_LINE_LEN",
     "y",
     "int",
     "128",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\console\\Kconfig",
-      16
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      872
     ]
   ],
   [
@@ -4629,19 +5014,22 @@
     "CONFIG_CONSOLE_HANDLER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      874
+    ]
   ],
   [
     "CONFIG_CONSOLE_INIT_PRIORITY",
     "y",
     "int",
     "60",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\console\\Kconfig",
-      37
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      875
     ]
   ],
   [
@@ -4651,57 +5039,75 @@
     "y",
     "assign",
     [
-      "C:/Users/alvar/zephyrproject/zephyr/boards/st/nucleo_wl55jc/nucleo_wl55jc_defconfig",
-      9
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      876
     ]
   ],
   [
     "CONFIG_UART_CONSOLE_DEBUG_SERVER_HOOKS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      877
+    ]
   ],
   [
     "CONFIG_UART_CONSOLE_MCUMGR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      878
+    ]
   ],
   [
     "CONFIG_RAM_CONSOLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      879
+    ]
   ],
   [
     "CONFIG_IPM_CONSOLE_SENDER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      880
+    ]
   ],
   [
     "CONFIG_IPM_CONSOLE_RECEIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      881
+    ]
   ],
   [
     "CONFIG_UART_MCUMGR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      882
+    ]
   ],
   [
     "CONFIG_UART_CONSOLE_LOG_LEVEL_OFF",
@@ -4748,11 +5154,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_UART_CONSOLE_LOG_LEVEL",
@@ -4769,172 +5172,232 @@
     "CONFIG_EFI_CONSOLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      890
+    ]
   ],
   [
     "CONFIG_COREDUMP_DEVICE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      891
+    ]
   ],
   [
     "CONFIG_CRC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      892
+    ]
   ],
   [
     "CONFIG_CRYPTO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      893
+    ]
   ],
   [
     "CONFIG_DAC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      894
+    ]
   ],
   [
     "CONFIG_DAI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      895
+    ]
   ],
   [
     "CONFIG_DALI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      896
+    ]
   ],
   [
     "CONFIG_DEBUG_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      897
+    ]
   ],
   [
     "CONFIG_DISK_DRIVERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      898
+    ]
   ],
   [
     "CONFIG_DISPLAY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      899
+    ]
   ],
   [
     "CONFIG_DMA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      900
+    ]
   ],
   [
     "CONFIG_DP_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      901
+    ]
   ],
   [
     "CONFIG_EDAC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      902
+    ]
   ],
   [
     "CONFIG_EEPROM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      903
+    ]
   ],
   [
     "CONFIG_ENTROPY_GENERATOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      904
+    ]
   ],
   [
     "CONFIG_ESPI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      905
+    ]
   ],
   [
     "CONFIG_MDIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      906
+    ]
   ],
   [
     "CONFIG_ARM_SCMI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      911
+    ]
   ],
   [
     "CONFIG_FLASH_FILL_GENERIC_IMPLEMENTATION",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\flash\\Kconfig",
-      72
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      914
     ]
   ],
   [
     "CONFIG_FPGA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      915
+    ]
   ],
   [
     "CONFIG_FUEL_GAUGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      916
+    ]
   ],
   [
     "CONFIG_GPIO_LOG_LEVEL_OFF",
@@ -4981,11 +5444,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_GPIO_LOG_LEVEL",
@@ -5002,86 +5462,110 @@
     "CONFIG_GPIO_GET_DIRECTION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      924
+    ]
   ],
   [
     "CONFIG_GPIO_GET_CONFIG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      925
+    ]
   ],
   [
     "CONFIG_GPIO_HOGS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      926
+    ]
   ],
   [
     "CONFIG_GPIO_ENABLE_DISABLE_INTERRUPT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      927
+    ]
   ],
   [
     "CONFIG_GPIO_STM32",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\gpio\\Kconfig.stm32",
-      9
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      928
     ]
   ],
   [
     "CONFIG_HAPTICS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      929
+    ]
   ],
   [
     "CONFIG_HWSPINLOCK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      930
+    ]
   ],
   [
     "CONFIG_I2S",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      931
+    ]
   ],
   [
     "CONFIG_I3C",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      932
+    ]
   ],
   [
     "CONFIG_INTC_INIT_PRIORITY",
     "y",
     "int",
     "40",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\interrupt_controller\\Kconfig",
-      45
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      937
     ]
   ],
   [
@@ -5129,11 +5613,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_INTC_LOG_LEVEL",
@@ -5151,10 +5632,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\interrupt_controller\\Kconfig.stm32",
-      11
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      945
     ]
   ],
   [
@@ -5162,115 +5643,154 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\interrupt_controller\\Kconfig.stm32",
-      18
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      946
     ]
   ],
   [
     "CONFIG_IPM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      949
+    ]
   ],
   [
     "CONFIG_LED",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      950
+    ]
   ],
   [
     "CONFIG_LED_STRIP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      951
+    ]
   ],
   [
     "CONFIG_LORA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      952
+    ]
   ],
   [
     "CONFIG_MBOX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      953
+    ]
   ],
   [
     "CONFIG_MIPI_DBI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      954
+    ]
   ],
   [
     "CONFIG_MM_DRV",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      966
+    ]
   ],
   [
     "CONFIG_MSPI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      967
+    ]
   ],
   [
     "CONFIG_MUX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      968
+    ]
   ],
   [
     "CONFIG_OPAMP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      969
+    ]
   ],
   [
     "CONFIG_PCIE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      970
+    ]
   ],
   [
     "CONFIG_PCIE_ENDPOINT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      971
+    ]
   ],
   [
     "CONFIG_PECI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      972
+    ]
   ],
   [
     "CONFIG_PINCTRL",
@@ -5327,11 +5847,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_PINCTRL_LOG_LEVEL",
@@ -5348,35 +5865,44 @@
     "CONFIG_PINCTRL_DYNAMIC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      981
+    ]
   ],
   [
     "CONFIG_PINCTRL_MCHP_COMMON",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      982
+    ]
   ],
   [
     "CONFIG_PINCTRL_NPCX_EX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      983
+    ]
   ],
   [
     "CONFIG_PINCTRL_STM32",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\pinctrl\\Kconfig.stm32",
-      6
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      984
     ]
   ],
   [
@@ -5384,102 +5910,132 @@
     "y",
     "int",
     "2",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\pinctrl\\Kconfig.stm32",
-      14
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      985
     ]
   ],
   [
     "CONFIG_PS2",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      986
+    ]
   ],
   [
     "CONFIG_PSI5",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      987
+    ]
   ],
   [
     "CONFIG_PTP_CLOCK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      988
+    ]
   ],
   [
     "CONFIG_PULSE_IO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      989
+    ]
   ],
   [
     "CONFIG_PWM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      990
+    ]
   ],
   [
     "CONFIG_RESET_STM32",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\reset\\Kconfig.stm32",
-      6
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      995
     ]
   ],
   [
     "CONFIG_RETAINED_MEM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      996
+    ]
   ],
   [
     "CONFIG_RTC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      997
+    ]
   ],
   [
     "CONFIG_SDHC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      998
+    ]
   ],
   [
     "CONFIG_SENSOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      999
+    ]
   ],
   [
     "CONFIG_SENT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1000
+    ]
   ],
   [
     "CONFIG_SERIAL_HAS_DRIVER",
@@ -5506,10 +6062,10 @@
     "y",
     "int",
     "50",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\serial\\Kconfig",
-      36
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1007
     ]
   ],
   [
@@ -5557,11 +6113,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_UART_LOG_LEVEL",
@@ -5578,102 +6131,132 @@
     "CONFIG_UART_LINE_CTRL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1015
+    ]
   ],
   [
     "CONFIG_UART_DRV_CMD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1016
+    ]
   ],
   [
     "CONFIG_UART_WIDE_DATA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1017
+    ]
   ],
   [
     "CONFIG_UART_ASYNC_RX_HELPER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1018
+    ]
   ],
   [
     "CONFIG_UART_NPCX_FIFO_EX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1023
+    ]
   ],
   [
     "CONFIG_UART_STM32",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\serial\\Kconfig.stm32",
-      8
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1024
     ]
   ],
   [
     "CONFIG_UART_STM32_ABNORMAL_RTS_ERRATUM_WORKAROUND",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1025
+    ]
   ],
   [
     "CONFIG_SMBUS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1026
+    ]
   ],
   [
     "CONFIG_STEPPER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1027
+    ]
   ],
   [
     "CONFIG_TIMEAWARE_GPIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1028
+    ]
   ],
   [
     "CONFIG_SYSTEM_CLOCK_SLOPPY_IDLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1033
+    ]
   ],
   [
     "CONFIG_SYSTEM_CLOCK_INIT_PRIORITY",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\drivers\\timer\\Kconfig",
-      60
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1034
     ]
   ],
   [
@@ -5710,41 +6293,56 @@
     "CONFIG_CORTEX_M_SYSTICK_64BIT_CYCLE_COUNTER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1038
+    ]
   ],
   [
     "CONFIG_CORTEX_M_SYSTICK_LPM_TIMER_NONE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1039
+    ]
   ],
   [
     "CONFIG_CORTEX_M_SYSTICK_LPM_TIMER_COUNTER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1040
+    ]
   ],
   [
     "CONFIG_CORTEX_M_SYSTICK_LPM_TIMER_HOOKS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1041
+    ]
   ],
   [
     "CONFIG_CORTEX_M_SYSTICK_RESET_BY_LPM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1042
+    ]
   ],
   [
     "CONFIG_SYSTEM_TIMER_HAS_LPM_COMPANION_SUPPORT",
@@ -5761,144 +6359,195 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     null
   ],
   [
     "CONFIG_UAOL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1047
+    ]
   ],
   [
     "CONFIG_USB_BC12",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1048
+    ]
   ],
   [
     "CONFIG_UDC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1049
+    ]
   ],
   [
     "CONFIG_UHC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1050
+    ]
   ],
   [
     "CONFIG_UVB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1051
+    ]
   ],
   [
     "CONFIG_USB_DEVICE_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1052
+    ]
   ],
   [
     "CONFIG_USBC_TCPC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1059
+    ]
   ],
   [
     "CONFIG_USBC_VBUS_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1060
+    ]
   ],
   [
     "CONFIG_USBC_PPC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1061
+    ]
   ],
   [
     "CONFIG_VIDEO_DRIVERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1062
+    ]
   ],
   [
     "CONFIG_VIRTIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1063
+    ]
   ],
   [
     "CONFIG_VIRTUALIZATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1064
+    ]
   ],
   [
     "CONFIG_W1",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1065
+    ]
   ],
   [
     "CONFIG_TEE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1066
+    ]
   ],
   [
     "CONFIG_REQUIRES_FULL_LIBC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1069
+    ]
   ],
   [
     "CONFIG_REQUIRES_FLOAT_PRINTF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1070
+    ]
   ],
   [
     "CONFIG_LIBC_ALLOW_LESS_THAN_64BIT_TIME",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1071
+    ]
   ],
   [
     "CONFIG_FULL_LIBC_SUPPORTED",
@@ -5945,11 +6594,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\libc\\Kconfig",
-      81
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_EXTERNAL_LIBC",
@@ -5973,17 +6619,23 @@
     "CONFIG_COMMON_LIBC_ASCTIME_R",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1083
+    ]
   ],
   [
     "CONFIG_COMMON_LIBC_CTIME_R",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1084
+    ]
   ],
   [
     "CONFIG_COMMON_LIBC_TIME",
@@ -6000,9 +6652,10 @@
     "y",
     "bool",
     "y",
-    "imply",
+    "assign",
     [
-      "PICOLIBC && PICOLIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1086
     ]
   ],
   [
@@ -6010,10 +6663,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\libc\\common\\Kconfig",
-      88
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1087
     ]
   ],
   [
@@ -6021,19 +6674,22 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\libc\\common\\Kconfig",
-      97
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1088
     ]
   ],
   [
     "CONFIG_COMMON_LIBC_REMOVE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1089
+    ]
   ],
   [
     "CONFIG_LIBC_ERRNO",
@@ -6050,10 +6706,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\libc\\common\\Kconfig",
-      132
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1091
     ]
   ],
   [
@@ -6069,11 +6725,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\libc\\picolibc\\Kconfig",
-      9
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_PICOLIBC_IO_FLOAT",
@@ -6088,11 +6741,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\libc\\picolibc\\Kconfig",
-      35
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_STDOUT_CONSOLE",
@@ -6101,8 +6751,8 @@
     "y",
     "assign",
     [
-      "C:/Users/alvar/brightnessm_iot/./confs/prj_nucleo_wl55jc.conf",
-      3
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1096
     ]
   ],
   [
@@ -6120,87 +6770,111 @@
     "CONFIG_CPP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1103
+    ]
   ],
   [
     "CONFIG_SYS_HASH_FUNC32",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1113
+    ]
   ],
   [
     "CONFIG_SYS_HASH_MAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1119
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_VALIDATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1125
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_STRESS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1126
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1127
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_ALLOC_LOOPS",
     "y",
     "int",
     "3",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\heap\\Kconfig",
-      36
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1128
     ]
   ],
   [
     "CONFIG_SYS_HEAP_RUNTIME_STATS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1129
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_ARRAY_SIZE",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\heap\\Kconfig",
-      57
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1130
     ]
   ],
   [
     "CONFIG_SYS_HEAP_LISTENER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1131
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_HARDENING_NONE",
@@ -6215,11 +6889,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\heap\\Kconfig",
-      84
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SYS_HEAP_HARDENING_MODERATE",
@@ -6260,9 +6931,12 @@
     "CONFIG_SYS_HEAP_KASAN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1138
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_LOG_LEVEL_OFF",
@@ -6309,11 +6983,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SYS_HEAP_LOG_LEVEL",
@@ -6331,11 +7002,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\heap\\Kconfig",
-      321
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SYS_HEAP_BIG_ONLY",
@@ -6357,65 +7025,89 @@
     "CONFIG_MULTI_HEAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1149
+    ]
   ],
   [
     "CONFIG_SHARED_MULTI_HEAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1150
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_STATS_LOGGING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1151
+    ]
   ],
   [
     "CONFIG_SYS_MEM_BLOCKS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1157
+    ]
   ],
   [
     "CONFIG_MIDI2_UMP_STREAM_RESPONDER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1163
+    ]
   ],
   [
     "CONFIG_NET_BUF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1166
+    ]
   ],
   [
     "CONFIG_ZVFS_OPEN_IGNORE_MIN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1171
+    ]
   ],
   [
     "CONFIG_PRINTK_SYNC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1172
+    ]
   ],
   [
     "CONFIG_MPSC_PBUF",
@@ -6431,25 +7123,34 @@
     "CONFIG_SPSC_PBUF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1174
+    ]
   ],
   [
     "CONFIG_MPSC_CLEAR_ALLOCATED",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1175
+    ]
   ],
   [
     "CONFIG_RESET_ON_FATAL_ERROR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1176
+    ]
   ],
   [
     "CONFIG_HAS_POWEROFF",
@@ -6465,19 +7166,22 @@
     "CONFIG_POWEROFF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1178
+    ]
   ],
   [
     "CONFIG_BOOT_BANNER",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\os\\Kconfig",
-      154
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1179
     ]
   ],
   [
@@ -6485,10 +7189,10 @@
     "y",
     "string",
     "Booting Zephyr OS build",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\os\\Kconfig",
-      162
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1180
     ]
   ],
   [
@@ -6496,35 +7200,44 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\os\\Kconfig",
-      169
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1181
     ]
   ],
   [
     "CONFIG_BOOT_CLEAR_SCREEN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1182
+    ]
   ],
   [
     "CONFIG_BOOTARGS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1183
+    ]
   ],
   [
     "CONFIG_BOOT_FDT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1184
+    ]
   ],
   [
     "CONFIG_ATOMIC_OPERATIONS_BUILTIN",
@@ -6541,11 +7254,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\os\\Kconfig.cbprintf",
-      6
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_CBPRINTF_NANO",
@@ -6560,11 +7270,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\os\\Kconfig.cbprintf",
-      29
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_CBPRINTF_REDUCED_INTEGRAL",
@@ -6578,25 +7285,34 @@
     "CONFIG_CBPRINTF_FP_SUPPORT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1196
+    ]
   ],
   [
     "CONFIG_CBPRINTF_FP_A_SUPPORT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1197
+    ]
   ],
   [
     "CONFIG_CBPRINTF_LIBC_SUBSTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1198
+    ]
   ],
   [
     "CONFIG_CBPRINTF_PACKAGE_LOG_LEVEL_OFF",
@@ -6643,11 +7359,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_config",
-      5
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_CBPRINTF_PACKAGE_LOG_LEVEL",
@@ -6664,87 +7377,108 @@
     "CONFIG_CBPRINTF_PACKAGE_LONGDOUBLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1206
+    ]
   ],
   [
     "CONFIG_CBPRINTF_CONVERT_CHECK_PTR",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\os\\Kconfig.cbprintf",
-      170
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1207
     ]
   ],
   [
     "CONFIG_ZVFS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1208
+    ]
   ],
   [
     "CONFIG_CPU_LOAD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1209
+    ]
   ],
   [
     "CONFIG_CPU_LOAD_METRIC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1210
+    ]
   ],
   [
     "CONFIG_SMF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1213
+    ]
   ],
   [
     "CONFIG_LIBGCC_RTLIB",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\runtime\\Kconfig",
-      13
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_JSON_LIBRARY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1219
+    ]
   ],
   [
     "CONFIG_RING_BUFFER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1220
+    ]
   ],
   [
     "CONFIG_RING_BUFFER_LARGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1221
+    ]
   ],
   [
     "CONFIG_NOTIFY",
@@ -6760,9 +7494,12 @@
     "CONFIG_BASE64",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1223
+    ]
   ],
   [
     "CONFIG_ONOFF",
@@ -6778,17 +7515,23 @@
     "CONFIG_UTF8",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1225
+    ]
   ],
   [
     "CONFIG_COBS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1226
+    ]
   ],
   [
     "CONFIG_GETOPT",
@@ -6804,132 +7547,177 @@
     "CONFIG_GETOPT_LONG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1228
+    ]
   ],
   [
     "CONFIG_TIMEUTIL_APPLY_SKEW",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\lib\\utils\\Kconfig",
-      132
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1229
     ]
   ],
   [
     "CONFIG_UUID",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1232
+    ]
   ],
   [
     "CONFIG_WORD_GRANULAR_ACCESS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1233
+    ]
   ],
   [
     "CONFIG_MIN_HEAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1234
+    ]
   ],
   [
     "CONFIG_FIDO2",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1244
+    ]
   ],
   [
     "CONFIG_BINDESC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1247
+    ]
   ],
   [
     "CONFIG_CONSOLE_SUBSYS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1254
+    ]
   ],
   [
     "CONFIG_CPU_FREQ",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1255
+    ]
   ],
   [
     "CONFIG_CRC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1256
+    ]
   ],
   [
     "CONFIG_DAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1257
+    ]
   ],
   [
     "CONFIG_THREAD_ANALYZER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1262
+    ]
   ],
   [
     "CONFIG_DEBUG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1268
+    ]
   ],
   [
     "CONFIG_UBSAN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1269
+    ]
   ],
   [
     "CONFIG_STACK_USAGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1270
+    ]
   ],
   [
     "CONFIG_CALLGRAPH_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1271
+    ]
   ],
   [
     "CONFIG_PRINTK",
@@ -6946,240 +7734,318 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\debug\\Kconfig",
-      173
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1273
     ]
   ],
   [
     "CONFIG_FORCE_NO_ASSERT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1274
+    ]
   ],
   [
     "CONFIG_ASSERT_VERBOSE",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\debug\\Kconfig",
-      248
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1275
     ]
   ],
   [
     "CONFIG_ASSERT_NO_FILE_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1276
+    ]
   ],
   [
     "CONFIG_ASSERT_NO_COND_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1277
+    ]
   ],
   [
     "CONFIG_ASSERT_NO_MSG_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1278
+    ]
   ],
   [
     "CONFIG_ASSERT_TEST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1279
+    ]
   ],
   [
     "CONFIG_OVERRIDE_FRAME_POINTER_DEFAULT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1280
+    ]
   ],
   [
     "CONFIG_DEBUG_THREAD_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1281
+    ]
   ],
   [
     "CONFIG_DEBUG_COREDUMP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1282
+    ]
   ],
   [
     "CONFIG_SYMTAB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1283
+    ]
   ],
   [
     "CONFIG_MIPI_STP_DECODER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1286
+    ]
   ],
   [
     "CONFIG_CS_TRACE_DEFMT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1287
+    ]
   ],
   [
     "CONFIG_DISK_ACCESS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1288
+    ]
   ],
   [
     "CONFIG_DSP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1289
+    ]
   ],
   [
     "CONFIG_EMUL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1290
+    ]
   ],
   [
     "CONFIG_CHARACTER_FRAMEBUFFER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1291
+    ]
   ],
   [
     "CONFIG_FILE_SYSTEM_LIB_LINK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1296
+    ]
   ],
   [
     "CONFIG_FILE_SYSTEM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1297
+    ]
   ],
   [
     "CONFIG_GNSS_RTK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1300
+    ]
   ],
   [
     "CONFIG_INSTRUMENTATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1301
+    ]
   ],
   [
     "CONFIG_RPMSG_SERVICE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1306
+    ]
   ],
   [
     "CONFIG_IPC_SERVICE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1307
+    ]
   ],
   [
     "CONFIG_OPENAMP_RSC_TABLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1308
+    ]
   ],
   [
     "CONFIG_JWT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1311
+    ]
   ],
   [
     "CONFIG_ZMS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1316
+    ]
   ],
   [
     "CONFIG_LLEXT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1319
+    ]
   ],
   [
     "CONFIG_LLEXT_EDK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1320
+    ]
   ],
   [
     "CONFIG_LOG_CORE_INIT_PRIORITY",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig",
-      18
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1325
     ]
   ],
   [
@@ -7187,11 +8053,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.mode",
-      9
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_LOG_MODE_IMMEDIATE",
@@ -7213,62 +8076,77 @@
     "CONFIG_LOG_FRONTEND",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1329
+    ]
   ],
   [
     "CONFIG_LOG_FRONTEND_OPT_API",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1330
+    ]
   ],
   [
     "CONFIG_LOG_CUSTOM_HEADER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1331
+    ]
   ],
   [
     "CONFIG_LOG_MULTIDOMAIN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1332
+    ]
   ],
   [
     "CONFIG_LOG_FLUSH_SLEEP_US",
     "y",
     "int",
     "10000",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.mode",
-      85
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1333
     ]
   ],
   [
     "CONFIG_LOG_RUNTIME_FILTERING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1338
+    ]
   ],
   [
     "CONFIG_LOG_DEFAULT_LEVEL",
     "y",
     "int",
     "3",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.filtering",
-      39
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1339
     ]
   ],
   [
@@ -7276,10 +8154,10 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.filtering",
-      54
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1340
     ]
   ],
   [
@@ -7287,10 +8165,10 @@
     "y",
     "int",
     "4",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.filtering",
-      71
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1341
     ]
   ],
   [
@@ -7298,48 +8176,54 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.processing",
-      10
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1347
     ]
   ],
   [
     "CONFIG_LOG_PRINTK_STATIC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1348
+    ]
   ],
   [
     "CONFIG_LOG_MODE_OVERFLOW",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.processing",
-      23
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1349
     ]
   ],
   [
     "CONFIG_LOG_BLOCK_IN_THREAD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1350
+    ]
   ],
   [
     "CONFIG_LOG_PROCESS_TRIGGER_THRESHOLD",
     "y",
     "int",
     "10",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.processing",
-      48
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1351
     ]
   ],
   [
@@ -7347,10 +8231,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.processing",
-      59
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1352
     ]
   ],
   [
@@ -7358,10 +8242,10 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.processing",
-      70
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1353
     ]
   ],
   [
@@ -7369,29 +8253,32 @@
     "y",
     "int",
     "1000",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.processing",
-      77
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1354
     ]
   ],
   [
     "CONFIG_LOG_PROCESS_THREAD_CUSTOM_PRIORITY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1355
+    ]
   ],
   [
     "CONFIG_LOG_BUFFER_SIZE",
     "y",
     "int",
     "1024",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.processing",
-      127
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1356
     ]
   ],
   [
@@ -7399,112 +8286,142 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.processing",
-      156
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1357
     ]
   ],
   [
     "CONFIG_LOG_TIMESTAMP_64BIT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1358
+    ]
   ],
   [
     "CONFIG_LOG_TIMESTAMP_USE_REALTIME",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1359
+    ]
   ],
   [
     "CONFIG_LOG_SPEED",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1360
+    ]
   ],
   [
     "CONFIG_LOG_FUNC_NAME_PREFIX_ERR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1370
+    ]
   ],
   [
     "CONFIG_LOG_FUNC_NAME_PREFIX_WRN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1371
+    ]
   ],
   [
     "CONFIG_LOG_FUNC_NAME_PREFIX_INF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1372
+    ]
   ],
   [
     "CONFIG_LOG_FUNC_NAME_PREFIX_DBG",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.formatting",
-      20
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1373
     ]
   ],
   [
     "CONFIG_LOG_MIPI_SYST_ENABLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1376
+    ]
   ],
   [
     "CONFIG_LOG_DOMAIN_NAME_PREFIX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1377
+    ]
   ],
   [
     "CONFIG_LOG_THREAD_ID_PREFIX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1378
+    ]
   ],
   [
     "CONFIG_LOG_CUSTOM_FORMAT_SUPPORT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1379
+    ]
   ],
   [
     "CONFIG_LOG_BACKEND_SHOW_TIMESTAMP",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.formatting",
-      150
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1380
     ]
   ],
   [
@@ -7512,10 +8429,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.formatting",
-      156
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1381
     ]
   ],
   [
@@ -7523,37 +8440,43 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.formatting",
-      163
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1382
     ]
   ],
   [
     "CONFIG_LOG_INFO_COLOR_GREEN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1383
+    ]
   ],
   [
     "CONFIG_LOG_DBG_COLOR_BLUE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1384
+    ]
   ],
   [
     "CONFIG_LOG_TAG_MAX_LEN",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.formatting",
-      179
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1385
     ]
   ],
   [
@@ -7571,10 +8494,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.formatting",
-      200
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1387
     ]
   ],
   [
@@ -7582,11 +8505,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.formatting",
-      207
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_LOG_OUTPUT_FORMAT_DATE_TIMESTAMP",
@@ -7624,35 +8544,44 @@
     "CONFIG_LOG_BACKEND_CRLF_NONE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1393
+    ]
   ],
   [
     "CONFIG_LOG_BACKEND_CRLF_LFONLY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1394
+    ]
   ],
   [
     "CONFIG_LOG_BACKEND_SKIP_SOURCE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1395
+    ]
   ],
   [
     "CONFIG_LOG_BACKEND_UART",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\backends\\Kconfig.uart",
-      7
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1401
     ]
   ],
   [
@@ -7660,10 +8589,10 @@
     "y",
     "int",
     "1",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\backends\\Kconfig.uart",
-      22
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1402
     ]
   ],
   [
@@ -7671,10 +8600,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\backends\\Kconfig.uart",
-      33
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1403
     ]
   ],
   [
@@ -7682,11 +8611,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.template.log_format_config",
-      6
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_LOG_BACKEND_UART_OUTPUT_DICTIONARY",
@@ -7719,19 +8645,22 @@
     "CONFIG_LOG_BACKEND_IPC_SERVICE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1408
+    ]
   ],
   [
     "CONFIG_LOG_USE_VLA",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.misc",
-      21
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1414
     ]
   ],
   [
@@ -7739,53 +8668,65 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.misc",
-      31
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1415
     ]
   ],
   [
     "CONFIG_LOG_ALWAYS_RUNTIME",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1416
+    ]
   ],
   [
     "CONFIG_LOG_FMT_SECTION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1417
+    ]
   ],
   [
     "CONFIG_LOG_FMT_STRING_VALIDATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1418
+    ]
   ],
   [
     "CONFIG_LOG_MEM_UTILIZATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1419
+    ]
   ],
   [
     "CONFIG_LOG_FAILURE_REPORT_PERIOD",
     "y",
     "int",
     "1000",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig.misc",
-      115
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1420
     ]
   ],
   [
@@ -7793,10 +8734,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig",
-      54
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1423
     ]
   ],
   [
@@ -7804,10 +8745,10 @@
     "y",
     "int",
     "5000",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\logging\\Kconfig",
-      65
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1424
     ]
   ],
   [
@@ -7825,67 +8766,88 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\mem_mgmt\\Kconfig",
-      8
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1428
     ]
   ],
   [
     "CONFIG_MEM_ATTR_HEAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1429
+    ]
   ],
   [
     "CONFIG_EC_HOST_CMD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1438
+    ]
   ],
   [
     "CONFIG_OSDP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1441
+    ]
   ],
   [
     "CONFIG_MODBUS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1444
+    ]
   ],
   [
     "CONFIG_MODEM_MODULES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1445
+    ]
   ],
   [
     "CONFIG_MPIPE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1446
+    ]
   ],
   [
     "CONFIG_NETWORKING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1451
+    ]
   ],
   [
     "CONFIG_HAS_PM",
@@ -7911,33 +8873,45 @@
     "CONFIG_PM_POLICY_LATENCY_STANDALONE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1459
+    ]
   ],
   [
     "CONFIG_MCTP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1465
+    ]
   ],
   [
     "CONFIG_POSIX_SYSTEM_INTERFACES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1475
+    ]
   ],
   [
     "CONFIG_POSIX_API",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1476
+    ]
   ],
   [
     "CONFIG_POSIX_AEP_CHOICE_NONE",
@@ -7952,11 +8926,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\portability\\posix\\Kconfig.profile",
-      29
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_POSIX_AEP_CHOICE_BASE",
@@ -8024,35 +8995,44 @@
     "CONFIG_EVENTFD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1493
+    ]
   ],
   [
     "CONFIG_PROFILING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1496
+    ]
   ],
   [
     "CONFIG_TEST_RANDOM_GENERATOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1501
+    ]
   ],
   [
     "CONFIG_TIMER_RANDOM_INITIAL_STATE",
     "y",
     "int",
     "123456789",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\random\\Kconfig",
-      33
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1502
     ]
   ],
   [
@@ -8070,228 +9050,309 @@
     "CONFIG_CSPRNG_NEEDED",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1504
+    ]
   ],
   [
     "CONFIG_RTIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1507
+    ]
   ],
   [
     "CONFIG_MMC_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1512
+    ]
   ],
   [
     "CONFIG_SDMMC_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1513
+    ]
   ],
   [
     "CONFIG_SDIO_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1514
+    ]
   ],
   [
     "CONFIG_SECURE_STORAGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1517
+    ]
   ],
   [
     "CONFIG_SETTINGS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1518
+    ]
   ],
   [
     "CONFIG_SHELL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1519
+    ]
   ],
   [
     "CONFIG_STATS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1520
+    ]
   ],
   [
     "CONFIG_STREAM_FLASH",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1525
+    ]
   ],
   [
     "CONFIG_TASK_WDT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1528
+    ]
   ],
   [
     "CONFIG_ZTEST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1533
+    ]
   ],
   [
     "CONFIG_ZTEST_MOCKING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1534
+    ]
   ],
   [
     "CONFIG_ZTRESS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1535
+    ]
   ],
   [
     "CONFIG_ZTEST_BENCHMARK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1540
+    ]
   ],
   [
     "CONFIG_TEST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1543
+    ]
   ],
   [
     "CONFIG_TEST_USERSPACE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1544
+    ]
   ],
   [
     "CONFIG_FORCE_COVERAGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1550
+    ]
   ],
   [
     "CONFIG_COVERAGE_DUMP_PATH_EXCLUDE",
     "y",
     "string",
     "",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\subsys\\testsuite\\Kconfig.coverage",
-      96
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1551
     ]
   ],
   [
     "CONFIG_TIMING_FUNCTIONS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1554
+    ]
   ],
   [
     "CONFIG_TRACING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1555
+    ]
   ],
   [
     "CONFIG_USB_DEVICE_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1556
+    ]
   ],
   [
     "CONFIG_USB_DEVICE_STACK_NEXT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1557
+    ]
   ],
   [
     "CONFIG_USB_HOST_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1558
+    ]
   ],
   [
     "CONFIG_USBC_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1559
+    ]
   ],
   [
     "CONFIG_VIDEO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1560
+    ]
   ],
   [
     "CONFIG_ZBUS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1561
+    ]
   ],
   [
     "CONFIG_MODULES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1562
+    ]
   ],
   [
     "CONFIG_TOOLCHAIN_ZEPHYR_1_0",
@@ -8350,11 +9411,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      62
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_LINKER_ORPHAN_SECTION_ERROR",
@@ -8369,10 +9427,10 @@
     "y",
     "hex",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      148
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1580
     ]
   ],
   [
@@ -8380,10 +9438,10 @@
     "y",
     "hex",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      178
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1581
     ]
   ],
   [
@@ -8402,11 +9460,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      193
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_CMAKE_LINKER_GENERATOR",
@@ -8420,38 +9475,44 @@
     "CONFIG_HAVE_CUSTOM_LINKER_SCRIPT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1585
+    ]
   ],
   [
     "CONFIG_LINKER_SORT_BY_ALIGNMENT",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      243
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1586
     ]
   ],
   [
     "CONFIG_LINKER_USE_BOOT_SECTION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1591
+    ]
   ],
   [
     "CONFIG_LINKER_LAST_SECTION_ID",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      291
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1592
     ]
   ],
   [
@@ -8459,10 +9520,10 @@
     "y",
     "hex",
     "0xE015E015",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      307
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1593
     ]
   ],
   [
@@ -8491,9 +9552,12 @@
     "CONFIG_LINKER_DEVNULL_MEMORY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1598
+    ]
   ],
   [
     "CONFIG_STD_C90",
@@ -8524,11 +9588,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      390
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_STD_C23",
@@ -8552,36 +9613,42 @@
     "CONFIG_GNU_C_EXTENSIONS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1610
+    ]
   ],
   [
     "CONFIG_CODING_GUIDELINE_CHECK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1611
+    ]
   ],
   [
     "CONFIG_COMPILER_FREESTANDING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1612
+    ]
   ],
   [
     "CONFIG_SIZE_OPTIMIZATIONS",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      491
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SIZE_OPTIMIZATIONS_AGGRESSIVE",
@@ -8619,35 +9686,44 @@
     "CONFIG_COMPILER_WARNINGS_AS_ERRORS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1618
+    ]
   ],
   [
     "CONFIG_DEPRECATION_TEST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1619
+    ]
   ],
   [
     "CONFIG_COMPILER_SAVE_TEMPS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1620
+    ]
   ],
   [
     "CONFIG_COMPILER_TRACK_MACRO_EXPANSION",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      571
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1621
     ]
   ],
   [
@@ -8655,10 +9731,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      579
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1622
     ]
   ],
   [
@@ -8674,11 +9750,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      586
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_FORTIFY_SOURCE_RUN_TIME",
@@ -8692,17 +9765,23 @@
     "CONFIG_COMPILER_OPT",
     "y",
     "string",
-    null,
-    "unset",
-    null
+    "",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1626
+    ]
   ],
   [
     "CONFIG_MISRA_SANE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1627
+    ]
   ],
   [
     "CONFIG_TOOLCHAIN_SUPPORTS_VLA_IN_STATEMENTS",
@@ -8730,20 +9809,20 @@
     "CONFIG_SCOPE_CLEANUP_HELPERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1630
+    ]
   ],
   [
     "CONFIG_COMPILER_CODEGEN_VLIW_AUTO",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      658
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_COMPILER_CODEGEN_VLIW_ENABLED",
@@ -8782,21 +9861,18 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      689
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_KERNEL_BIN_NAME",
     "y",
     "string",
     "zephyr",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      713
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1648
     ]
   ],
   [
@@ -8804,144 +9880,186 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      719
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1649
     ]
   ],
   [
     "CONFIG_OUTPUT_SYMBOLS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1650
+    ]
   ],
   [
     "CONFIG_OUTPUT_PRINT_MEMORY_USAGE",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      761
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1651
     ]
   ],
   [
     "CONFIG_CLEANUP_INTERMEDIATE_FILES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1652
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_HEX_GAP_FILL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1653
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_EXE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1654
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_S19_GAP_FILL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1655
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_VERILOG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1656
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_UF2",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1657
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_MOT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1658
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_STRIPPED",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1659
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_COMPRESS_DEBUG_SECTIONS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1660
+    ]
   ],
   [
     "CONFIG_BUILD_ALIGN_LMA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1661
+    ]
   ],
   [
     "CONFIG_APPLICATION_DEFINED_SYSCALL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1662
+    ]
   ],
   [
     "CONFIG_MAKEFILE_EXPORTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1663
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_META",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1664
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_STRIP_PATHS",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      1011
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1665
     ]
   ],
   [
@@ -8949,72 +10067,87 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      1025
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1666
     ]
   ],
   [
     "CONFIG_EMIT_ALL_SYSCALLS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1667
+    ]
   ],
   [
     "CONFIG_WARN_DEPRECATED",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      1057
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1670
     ]
   ],
   [
     "CONFIG_WARN_EXPERIMENTAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1671
+    ]
   ],
   [
     "CONFIG_ENFORCE_ZEPHYR_STDINT",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\alvar\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      1093
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1672
     ]
   ],
   [
     "CONFIG_IS_BOOTLOADER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1678
+    ]
   ],
   [
     "CONFIG_BOOTLOADER_BOSSA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1679
+    ]
   ],
   [
     "CONFIG_LEGACY_GENERATED_INCLUDE_PATH",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/alvar/brightnessm_iot/build/zephyr/.config",
+      1685
+    ]
   ]
 ]

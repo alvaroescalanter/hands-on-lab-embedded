@@ -1112,17 +1112,17 @@
 
 		/* node '/leds/red' defined in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:13 */
 		rgb_red: red {
-			gpios = < &gpioa 0x5 0x1 >; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:14 */
+			gpios = < &gpioa 0x5 0x0 >; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:14 */
 		};
 
 		/* node '/leds/green' defined in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:17 */
 		rgb_green: green {
-			gpios = < &gpioa 0x6 0x1 >; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:18 */
+			gpios = < &gpioa 0x6 0x0 >; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:18 */
 		};
 
 		/* node '/leds/blue' defined in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:21 */
 		rgb_blue: blue {
-			gpios = < &gpioa 0x7 0x1 >; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:22 */
+			gpios = < &gpioa 0x7 0x0 >; /* in ..\brightnessm_iot\build\zephyr\boards\nucleo_wl55jc.overlay:22 */
 		};
 	};
 
