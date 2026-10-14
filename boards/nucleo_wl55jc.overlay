@@ -1,25 +1,72 @@
+
 #include <zephyr/dt-bindings/gpio/gpio.h>
+#include <zephyr/dt-bindings/adc/adc.h>
 
 / {
-	aliases {
-		led-red = &rgb_red;
-		led-green = &rgb_green;
-		led-blue = &rgb_blue;
-	};
+    aliases {
+        /* RGB LED aliases */
+        led-red = &rgb_red;
+        led-green = &rgb_green;
+        led-blue = &rgb_blue;
 
-	leds {
-		compatible = "gpio-leds";
+        /* ADC input alias */
+        analog-in-pin = &{/zephyr,user};
+    };
 
-		rgb_red: red {
-			gpios = <&gpioa 5 GPIO_ACTIVE_HIGH>;
-		};
+    /* ADC1 - Channel 5 - PB1 (A0) */
+    zephyr,user {
+        io-channels = <&adc1 5>;
+    };
+};
 
-		rgb_green: green {
-			gpios = <&gpioa 6 GPIO_ACTIVE_HIGH>;
-		};
+/*
+ * RGB LED CONFIGURATION
+ * Red: PA5
+ * Green: PA6
+ * Blue: PA7
+ */
+&leds {
+    rgb_red: red {
+        gpios = <&gpioa 5 GPIO_ACTIVE_HIGH>;
+    };
 
-		rgb_blue: blue {
-			gpios = <&gpioa 7 GPIO_ACTIVE_HIGH>;
-		};
-	};
+    rgb_green: green {
+        gpios = <&gpioa 6 GPIO_ACTIVE_HIGH>;
+    };
+
+    rgb_blue: blue {
+        gpios = <&gpioa 7 GPIO_ACTIVE_HIGH>;
+    };
+};
+
+/*
+ * ADC CONFIGURATION
+ * ADC1 - Channel 5 - PB1 (A0)
+ *
+ * ADC clock and pinctrl are already defined
+ * in the board's original Device Tree.
+ */
+&adc1 {
+    status = "okay";
+
+    #address-cells = <1>;
+    #size-cells = <0>;
+
+    channel@5 {
+        reg = <5>;
+
+        zephyr,gain = "ADC_GAIN_1";
+        zephyr,reference = "ADC_REF_INTERNAL";
+        zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;
+        zephyr,resolution = <12>;
+    };
+};
+
+/*
+ * PA5, PA6 and PA7 are assigned to SPI1
+ * in the board's original Device Tree.
+ * Disable SPI1 to use them as GPIO outputs.
+ */
+&spi1 {
+    status = "disabled";
 };
