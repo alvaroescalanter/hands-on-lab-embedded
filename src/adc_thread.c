@@ -1,18 +1,13 @@
-#include <zephyr/kernel.h>
 #include <zephyr/drivers/adc.h>
 #include <zephyr/sys/printk.h>
 #include <errno.h>
+#include "adc_thread.h"
 
 /* ADC1 - Channel 5 - PB1 (A0), defined in Devicetree */
 #define ADC_NODE DT_ALIAS(analog_in_pin)
 static const struct adc_dt_spec adc_ch = ADC_DT_SPEC_GET(ADC_NODE);
 
-
-/*Cola de Mensajes y mensaje que utilizamos*/ 
-typedef struct {
-    int16_t adc_raw;
-} adc_msg_t;
-
+/*Cola de mensajes*/
 K_MSGQ_DEFINE(adc_queue, sizeof(adc_msg_t), 10, 4);
 
 /* ADC measurement message */
@@ -20,6 +15,15 @@ static adc_msg_t adcMessage = {0};
 
 /* Semaphore: Timer -> ADC thread*/
 K_SEM_DEFINE(adc_trigger_sem, 0, 1);
+
+ /* Define ADC thread at compile-time */
+  K_THREAD_DEFINE(adc_thread,       /* Thread identifier */
+                  1024,             /* Stack size */
+                  adc_thread_func,  /* Entry function */
+                  NULL, NULL, NULL, /* Parameters */
+                  5,                /* Priority */
+                  0,                /* Options */
+                  0);               /* Starts immediately */
 
 
 /* ADC thread function */
@@ -65,9 +69,6 @@ void adc_thread_func(void *p1, void *p2, void *p3)
             printk("ADC read failed: %d\n", ret);
         } else {
 
-            /* Print raw ADC value (12 bits: 0-4095) */
-            printk("ADC raw = %d\n", adcMessage.adc_raw);
-
             /* Send ADC measurement to main */
             ret = k_msgq_put(&adc_queue, &adcMessage, K_FOREVER);
 
@@ -77,12 +78,3 @@ void adc_thread_func(void *p1, void *p2, void *p3)
         }
     }
 }
-
-/* Define ADC thread at compile-time */
-K_THREAD_DEFINE(adc_thread,       /* Thread identifier */
-                1024,             /* Stack size */
-                adc_thread_func,  /* Entry function */
-                NULL, NULL, NULL, /* Parameters */
-                5,                /* Priority */
-                0,                /* Options */
-                0);               /* Starts immediately */
