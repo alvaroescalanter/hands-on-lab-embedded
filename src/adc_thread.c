@@ -7,13 +7,13 @@
 #define ADC_NODE DT_ALIAS(analog_in_pin)
 static const struct adc_dt_spec adc_ch = ADC_DT_SPEC_GET(ADC_NODE);
 
-/*Cola de mensajes*/
+/* ADC measurement message queue */
 K_MSGQ_DEFINE(adc_queue, sizeof(adc_msg_t), 10, 4);
 
 /* ADC measurement message */
 static adc_msg_t adcMessage = {0};
 
-/* Semaphore: Timer -> ADC thread*/
+/* Semaphore: Triggers an ADC measurement every 2 seconds */
 K_SEM_DEFINE(adc_trigger_sem, 0, 1);
 
  /* Define ADC thread at compile-time */

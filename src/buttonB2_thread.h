@@ -5,6 +5,7 @@
 
 /* Shared semaphore: Button thread -> Main */
 extern struct k_sem buttonB2_sem;
+extern struct k_sem buttonB2_sem_long;
 
 /* Button B2 thread function */
 void buttonB2_thread_func(void *p1, void *p2, void *p3);

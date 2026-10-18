@@ -15,7 +15,7 @@
 
   "args": [
     "build",
-    "-p", "always",
+    "-p", "auto",
     "-b", "nucleo_wl55jc",
 
     "C:/Users/sfale/Desktop/MasterIoT/Embedded_IoT/Ejercicios/hands-on-lab-embedded",
@@ -211,10 +211,11 @@
       "message": 1
     },
 
-    "background": {
-      "activeOnStart": true,
-      "endsPattern": "OpenOCD GDB server running on port 3333.*"
-    }
+  "background": {
+  "activeOnStart": true,
+  "beginsPattern": "^.*$",
+  "endsPattern": ".*OpenOCD GDB server running on port 3333.*"
+}
   },
 
   "presentation": {
