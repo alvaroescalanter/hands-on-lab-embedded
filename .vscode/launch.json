@@ -1,38 +1,39 @@
 {
   "version": "0.2.0",
 
-  "configurations": [
+ "configurations": [
+
     {
-      "name": "Debug Zephyr - NUCLEO-WL55JC",
+        "name": "Debug Zephyr - NUCLEO-WL55JC",
 
-      "type": "cortex-debug",
-      "request": "launch",
+        "type": "cortex-debug",
+        "request": "launch",
 
-      "cwd":
-        "${workspaceFolder}",
+        "cwd":
+            "C:/Users/sfale/Desktop/MasterIoT/Embedded_IoT/Ejercicios/hands-on-lab-embedded",
 
-      "executable":
-        "${workspaceFolder}/build/zephyr/zephyr.elf",
+        "executable":
+            "C:/Users/sfale/Desktop/MasterIoT/Embedded_IoT/Ejercicios/hands-on-lab-embedded/build/zephyr/zephyr.elf",
 
-      "servertype": "external",
-      "gdbTarget": "localhost:3333",
+        "servertype": "external",
+        "gdbTarget": "localhost:3333",
 
-      "armToolchainPath":
-        "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin",
+        "armToolchainPath":
+            "C:/Users/sfale/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin",
 
-      "toolchainPrefix":
-        "arm-zephyr-eabi",
+        "toolchainPrefix":
+            "arm-zephyr-eabi",
 
-      "gdbPath":
-        "C:/Users/alvar/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
+        "gdbPath":
+            "C:/Users/sfale/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
 
-      "preLaunchTask": "Zephyr: Debug Server",
+        "preLaunchTask": "Zephyr: Debug Server",
 
-      "runToEntryPoint": "main",
+        "runToEntryPoint": "main",
 
-      "postDebugTask": "Zephyr: Stop Debug Server",
+        "postDebugTask": "Zephyr: Stop Debug Server",
 
-      "showDevDebugOutput": "none"
+        "showDevDebugOutput": "none"
     }
-  ]
+]
 }

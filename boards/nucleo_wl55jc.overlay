@@ -1,25 +1,111 @@
 #include <zephyr/dt-bindings/gpio/gpio.h>
+#include <zephyr/dt-bindings/adc/adc.h>
+
+/*
+ * GPIO CONFIGURATION - RGB LED
+ *
+ * Red:   PA5
+ * Green: PA6
+ * Blue:  PA7
+ *
+ * ADC1 - Channel 5 - PB1 (A0)
+ */
 
 / {
-	aliases {
-		led-red = &rgb_red;
-		led-green = &rgb_green;
-		led-blue = &rgb_blue;
-	};
+    aliases {
+        /* RGB aliases */
+        rgb-red = &rgb_red;
+        rgb-green = &rgb_green;
+        rgb-blue = &rgb_blue;
 
-	leds {
-		compatible = "gpio-leds";
+        /* ADC input alias */
+        analog-in-pin = &{/zephyr,user};
+    };
 
-		rgb_red: red {
-			gpios = <&gpioa 5 GPIO_ACTIVE_HIGH>;
-		};
+    /*
+     * Application ADC node.
+     * Allows adc_thread.c to access ADC1 channel 5
+     * using DT_ALIAS(analog_in_pin).
+     */
+    zephyr,user {
+        /* ADC1, channel 5 (PB1) */
+        io-channels = <&adc1 5>;
+    };
+};
 
-		rgb_green: green {
-			gpios = <&gpioa 6 GPIO_ACTIVE_HIGH>;
-		};
 
-		rgb_blue: blue {
-			gpios = <&gpioa 7 GPIO_ACTIVE_HIGH>;
-		};
-	};
+/*
+ * RGB LED CONFIGURATION
+ *
+ * GPIO definitions provided by the RGB module.
+ */
+
+&leds {
+    rgb_red: red {
+        gpios = <&gpioa 5 GPIO_ACTIVE_LOW>;
+    };
+
+    rgb_green: green {
+        gpios = <&gpioa 6 GPIO_ACTIVE_LOW>;
+    };
+
+    rgb_blue: blue {
+        gpios = <&gpioa 7 GPIO_ACTIVE_LOW>;
+    };
+};
+
+
+/*
+ * ADC CONFIGURATION FOR STM32WL55JC
+ *
+ * ADC1 - Channel 5 - PB1 (A0)
+ *
+ * The board DTS already defines the ADC peripheral,
+ * its clock and pin configuration.
+ * Here we configure the ADC channel for our application.
+ */
+
+&adc1 {
+    status = "okay";        /* Enable ADC1 */
+
+    #address-cells = <1>;   /* Channel identification */
+    #size-cells = <0>;      /* No memory size needed */
+
+    channel@5 {
+        reg = <5>;          /* ADC1 channel 5 (PB1) */
+
+        zephyr,gain = "ADC_GAIN_1";
+
+        /*
+         * ADC_REF_VDD_1: The STM32 ADC driver did not accept
+         * this option and returned:
+         * "Invalid channel reference (-22)".
+         *
+         * ADC_REF_INTERNAL: Supported by the STM32 ADC driver.
+         * This does not necessarily mean the ADC uses a fixed
+         * physical reference independent of VDDA.
+         */
+        zephyr,reference = "ADC_REF_INTERNAL";
+
+        /* Default sampling time */
+        zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;
+
+        /* 12-bit resolution: 0-4095 */
+        zephyr,resolution = <12>;
+    };
+};
+
+
+/*
+ * SPI1 CONFIGURATION
+ *
+ * PA5, PA6 and PA7 are assigned to SPI1
+ * in the original board Device Tree.
+ *
+ * Disable SPI1 to use these pins as GPIO outputs
+ * for the RGB LED.
+ */
+
+&spi1 {
+    status = "disabled";
 };
