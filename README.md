@@ -55,3 +55,14 @@ The RGB LED uses a **common-anode configuration** with active-low GPIO outputs a
 
 The custom Device Tree overlay (`boards/nucleo_wl55jc.overlay`) configures ADC1 and the RGB LED pins. SPI1 is disabled to allow PA5, PA6 and PA7 to operate as GPIO outputs.
 
+### 5. Build Instructions
+
+The project requires a configured Zephyr RTOS development environment.
+
+To build the application for the STM32 NUCLEO-WL55JC, run the following command from the project root directory:
+
+```bash
+west build -p auto -b nucleo_wl55jc . -d build -- -DDTC_OVERLAY_FILE=boards/nucleo_wl55jc.overlay -DCONF_FILE=confs/prj_nucleo_wl55jc.conf
+```
+
+The generated firmware is located in `build/zephyr/zephyr.hex` and can be flashed using STM32CubeProgrammer.
