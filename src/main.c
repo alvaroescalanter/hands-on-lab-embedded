@@ -102,7 +102,8 @@ int main(void)
                         k_timer_stop(&measurement_timer);
                         printk("------------MODE OFF------------\n");
                         printk("RGB Color: NONE\n");
-                        printk("ADC sampling paused.\n\n");
+                        printk("ADC sampling paused.\n");
+                        printk("System OFF\n\n");
                         printk("Short press B2 to enter NORMAL mode.\n");
                         printk("Long press B2 to enter OFF mode.\n\n");
                         rgbMessage_p = RGB_OFF;
@@ -129,7 +130,8 @@ int main(void)
                     //If pulsacion larga -> MODO OFF
                     if(!k_sem_take(&buttonB2_sem_long, K_NO_WAIT)){
                         printk("------------MODE OFF------------\n");
-                        printk("RGB Color: NONE\n\n");
+                        printk("RGB Color: NONE\n");
+                        printk("System OFF\n\n");
                         printk("Short press B2 to enter NORMAL mode.\n\n");
                         rgbMessage_p = RGB_OFF;
                         if (k_msgq_put(&rgb_msgq, &rgbMessage_p, K_FOREVER) == 0) {
