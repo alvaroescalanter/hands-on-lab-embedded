@@ -2,6 +2,10 @@
 # Embedded Platforms and Communications for IoT
 ## Hands-on Exercise
 
+**Authors:**
+- Alejandro Sánchez Fernández
+- Álvaro Hugo Escalante Ramos
+
 ### 1. Project Overview
 
 This project implements an embedded application using **Zephyr RTOS** on the **STM32 NUCLEO-WL55JC** development board.
